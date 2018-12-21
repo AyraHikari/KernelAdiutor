@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.views.recyclerview.downloads;
+package me.ayra.kerneladiutor.views.recyclerview.downloads;
 
 import android.app.Activity;
 import android.graphics.Color;
@@ -30,16 +30,16 @@ import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.utils.DownloadTask;
-import com.grarak.kerneladiutor.utils.Utils;
-import com.grarak.kerneladiutor.utils.ViewUtils;
-import com.grarak.kerneladiutor.utils.root.RootFile;
-import com.grarak.kerneladiutor.utils.root.RootUtils;
-import com.grarak.kerneladiutor.utils.tools.Recovery;
-import com.grarak.kerneladiutor.utils.tools.SupportedDownloads;
-import com.grarak.kerneladiutor.views.dialog.Dialog;
-import com.grarak.kerneladiutor.views.recyclerview.RecyclerViewItem;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.utils.DownloadTask;
+import me.ayra.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.utils.ViewUtils;
+import me.ayra.kerneladiutor.utils.root.RootFile;
+import me.ayra.kerneladiutor.utils.root.RootUtils;
+import me.ayra.kerneladiutor.utils.tools.Recovery;
+import me.ayra.kerneladiutor.utils.tools.SupportedDownloads;
+import me.ayra.kerneladiutor.views.dialog.Dialog;
+import me.ayra.kerneladiutor.views.recyclerview.RecyclerViewItem;
 
 import java.io.File;
 import java.util.List;

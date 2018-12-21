@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.services.monitor;
+package me.ayra.kerneladiutor.services.monitor;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -35,17 +35,17 @@ import android.os.IBinder;
 import android.os.SystemClock;
 import android.support.annotation.Nullable;
 
-import com.grarak.kerneladiutor.BuildConfig;
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.activities.MainActivity;
-import com.grarak.kerneladiutor.activities.NavigationActivity;
-import com.grarak.kerneladiutor.database.Settings;
-import com.grarak.kerneladiutor.fragments.tools.DataSharingFragment;
-import com.grarak.kerneladiutor.utils.AppSettings;
-import com.grarak.kerneladiutor.utils.Device;
-import com.grarak.kerneladiutor.utils.NotificationId;
-import com.grarak.kerneladiutor.utils.Utils;
-import com.grarak.kerneladiutor.utils.server.ServerCreateDevice;
+import me.ayra.kerneladiutor.BuildConfig;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.activities.MainActivity;
+import me.ayra.kerneladiutor.activities.NavigationActivity;
+import me.ayra.kerneladiutor.database.Settings;
+import me.ayra.kerneladiutor.fragments.tools.DataSharingFragment;
+import me.ayra.kerneladiutor.utils.AppSettings;
+import me.ayra.kerneladiutor.utils.Device;
+import me.ayra.kerneladiutor.utils.NotificationId;
+import me.ayra.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.utils.server.ServerCreateDevice;
 
 import org.json.JSONArray;
 import org.json.JSONException;

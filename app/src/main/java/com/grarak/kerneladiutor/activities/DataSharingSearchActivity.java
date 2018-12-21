@@ -17,22 +17,22 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.activities;
+package me.ayra.kerneladiutor.activities;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.fragments.recyclerview.RecyclerViewFragment;
-import com.grarak.kerneladiutor.utils.Utils;
-import com.grarak.kerneladiutor.utils.server.DeviceInfo;
-import com.grarak.kerneladiutor.utils.server.ServerSearchDevice;
-import com.grarak.kerneladiutor.views.dialog.Dialog;
-import com.grarak.kerneladiutor.views.recyclerview.ButtonView;
-import com.grarak.kerneladiutor.views.recyclerview.RecyclerViewItem;
-import com.grarak.kerneladiutor.views.recyclerview.datasharing.DataSharingDeviceView;
-import com.grarak.kerneladiutor.views.recyclerview.datasharing.DataSharingPageView;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.fragments.recyclerview.RecyclerViewFragment;
+import me.ayra.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.utils.server.DeviceInfo;
+import me.ayra.kerneladiutor.utils.server.ServerSearchDevice;
+import me.ayra.kerneladiutor.views.dialog.Dialog;
+import me.ayra.kerneladiutor.views.recyclerview.ButtonView;
+import me.ayra.kerneladiutor.views.recyclerview.RecyclerViewItem;
+import me.ayra.kerneladiutor.views.recyclerview.datasharing.DataSharingDeviceView;
+import me.ayra.kerneladiutor.views.recyclerview.datasharing.DataSharingPageView;
 
 import java.util.List;
 

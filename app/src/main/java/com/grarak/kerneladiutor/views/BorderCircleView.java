@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.views;
+package me.ayra.kerneladiutor.views;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -30,8 +30,8 @@ import android.support.v4.graphics.drawable.DrawableCompat;
 import android.util.AttributeSet;
 import android.widget.FrameLayout;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.utils.ViewUtils;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.utils.ViewUtils;
 
 public class BorderCircleView extends FrameLayout {
 

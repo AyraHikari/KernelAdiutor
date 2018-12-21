@@ -17,22 +17,22 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.activities.tools.profile;
+package me.ayra.kerneladiutor.activities.tools.profile;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.activities.BaseActivity;
-import com.grarak.kerneladiutor.database.tools.profiles.Profiles;
-import com.grarak.kerneladiutor.fragments.recyclerview.RecyclerViewFragment;
-import com.grarak.kerneladiutor.utils.Utils;
-import com.grarak.kerneladiutor.utils.ViewUtils;
-import com.grarak.kerneladiutor.views.dialog.Dialog;
-import com.grarak.kerneladiutor.views.recyclerview.DescriptionView;
-import com.grarak.kerneladiutor.views.recyclerview.RecyclerViewItem;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.activities.BaseActivity;
+import me.ayra.kerneladiutor.database.tools.profiles.Profiles;
+import me.ayra.kerneladiutor.fragments.recyclerview.RecyclerViewFragment;
+import me.ayra.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.utils.ViewUtils;
+import me.ayra.kerneladiutor.views.dialog.Dialog;
+import me.ayra.kerneladiutor.views.recyclerview.DescriptionView;
+import me.ayra.kerneladiutor.views.recyclerview.RecyclerViewItem;
 
 import java.util.List;
 

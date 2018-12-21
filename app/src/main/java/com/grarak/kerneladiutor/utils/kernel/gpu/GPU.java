@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.utils.kernel.gpu;
+package me.ayra.kerneladiutor.utils.kernel.gpu;
 
 /**
  * Created by willi on 12.05.16.

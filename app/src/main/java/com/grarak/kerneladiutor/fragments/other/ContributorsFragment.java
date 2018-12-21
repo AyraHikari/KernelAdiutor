@@ -17,16 +17,16 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.fragments.other;
+package me.ayra.kerneladiutor.fragments.other;
 
 import android.support.design.widget.Snackbar;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.fragments.recyclerview.RecyclerViewFragment;
-import com.grarak.kerneladiutor.utils.WebpageReader;
-import com.grarak.kerneladiutor.utils.other.Contributors;
-import com.grarak.kerneladiutor.views.recyclerview.ContributorView;
-import com.grarak.kerneladiutor.views.recyclerview.RecyclerViewItem;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.fragments.recyclerview.RecyclerViewFragment;
+import me.ayra.kerneladiutor.utils.WebpageReader;
+import me.ayra.kerneladiutor.utils.other.Contributors;
+import me.ayra.kerneladiutor.views.recyclerview.ContributorView;
+import me.ayra.kerneladiutor.views.recyclerview.RecyclerViewItem;
 
 import java.util.List;
 

@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.utils.other;
+package me.ayra.kerneladiutor.utils.other;
 
 import org.json.JSONArray;
 import org.json.JSONException;

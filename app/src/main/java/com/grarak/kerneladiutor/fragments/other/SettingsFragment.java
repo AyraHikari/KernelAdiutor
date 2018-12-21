@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.fragments.other;
+package me.ayra.kerneladiutor.fragments.other;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -45,18 +45,18 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.activities.BannerResizerActivity;
-import com.grarak.kerneladiutor.activities.MainActivity;
-import com.grarak.kerneladiutor.activities.NavigationActivity;
-import com.grarak.kerneladiutor.services.boot.ApplyOnBootService;
-import com.grarak.kerneladiutor.utils.AppSettings;
-import com.grarak.kerneladiutor.utils.Themes;
-import com.grarak.kerneladiutor.utils.Utils;
-import com.grarak.kerneladiutor.utils.ViewUtils;
-import com.grarak.kerneladiutor.utils.root.RootUtils;
-import com.grarak.kerneladiutor.views.BorderCircleView;
-import com.grarak.kerneladiutor.views.dialog.Dialog;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.activities.BannerResizerActivity;
+import me.ayra.kerneladiutor.activities.MainActivity;
+import me.ayra.kerneladiutor.activities.NavigationActivity;
+import me.ayra.kerneladiutor.services.boot.ApplyOnBootService;
+import me.ayra.kerneladiutor.utils.AppSettings;
+import me.ayra.kerneladiutor.utils.Themes;
+import me.ayra.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.utils.ViewUtils;
+import me.ayra.kerneladiutor.utils.root.RootUtils;
+import me.ayra.kerneladiutor.views.BorderCircleView;
+import me.ayra.kerneladiutor.views.dialog.Dialog;
 
 import java.util.ArrayList;
 import java.util.List;

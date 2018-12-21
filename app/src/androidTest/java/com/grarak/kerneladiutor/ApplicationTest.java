@@ -1,4 +1,4 @@
-package com.grarak.kerneladiutor;
+package me.ayra.kerneladiutor;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

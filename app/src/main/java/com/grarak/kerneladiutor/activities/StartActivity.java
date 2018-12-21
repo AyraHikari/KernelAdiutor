@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.activities;
+package me.ayra.kerneladiutor.activities;
 
 import android.content.Intent;
 import android.os.Bundle;

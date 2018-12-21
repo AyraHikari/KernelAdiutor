@@ -17,32 +17,32 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.fragments.kernel;
+package me.ayra.kerneladiutor.fragments.kernel;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.fragments.ApplyOnBootFragment;
-import com.grarak.kerneladiutor.fragments.recyclerview.RecyclerViewFragment;
-import com.grarak.kerneladiutor.utils.Utils;
-import com.grarak.kerneladiutor.utils.kernel.cpu.CPUFreq;
-import com.grarak.kerneladiutor.utils.kernel.cpuhotplug.AiOHotplug;
-import com.grarak.kerneladiutor.utils.kernel.cpuhotplug.AlucardHotplug;
-import com.grarak.kerneladiutor.utils.kernel.cpuhotplug.AutoSmp;
-import com.grarak.kerneladiutor.utils.kernel.cpuhotplug.BluPlug;
-import com.grarak.kerneladiutor.utils.kernel.cpuhotplug.CoreCtl;
-import com.grarak.kerneladiutor.utils.kernel.cpuhotplug.IntelliPlug;
-import com.grarak.kerneladiutor.utils.kernel.cpuhotplug.LazyPlug;
-import com.grarak.kerneladiutor.utils.kernel.cpuhotplug.MBHotplug;
-import com.grarak.kerneladiutor.utils.kernel.cpuhotplug.MPDecision;
-import com.grarak.kerneladiutor.utils.kernel.cpuhotplug.MSMHotplug;
-import com.grarak.kerneladiutor.utils.kernel.cpuhotplug.MakoHotplug;
-import com.grarak.kerneladiutor.utils.kernel.cpuhotplug.ThunderPlug;
-import com.grarak.kerneladiutor.utils.kernel.cpuhotplug.ZenDecision;
-import com.grarak.kerneladiutor.views.recyclerview.DescriptionView;
-import com.grarak.kerneladiutor.views.recyclerview.RecyclerViewItem;
-import com.grarak.kerneladiutor.views.recyclerview.SeekBarView;
-import com.grarak.kerneladiutor.views.recyclerview.SelectView;
-import com.grarak.kerneladiutor.views.recyclerview.SwitchView;
-import com.grarak.kerneladiutor.views.recyclerview.TitleView;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.fragments.ApplyOnBootFragment;
+import me.ayra.kerneladiutor.fragments.recyclerview.RecyclerViewFragment;
+import me.ayra.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.utils.kernel.cpu.CPUFreq;
+import me.ayra.kerneladiutor.utils.kernel.cpuhotplug.AiOHotplug;
+import me.ayra.kerneladiutor.utils.kernel.cpuhotplug.AlucardHotplug;
+import me.ayra.kerneladiutor.utils.kernel.cpuhotplug.AutoSmp;
+import me.ayra.kerneladiutor.utils.kernel.cpuhotplug.BluPlug;
+import me.ayra.kerneladiutor.utils.kernel.cpuhotplug.CoreCtl;
+import me.ayra.kerneladiutor.utils.kernel.cpuhotplug.IntelliPlug;
+import me.ayra.kerneladiutor.utils.kernel.cpuhotplug.LazyPlug;
+import me.ayra.kerneladiutor.utils.kernel.cpuhotplug.MBHotplug;
+import me.ayra.kerneladiutor.utils.kernel.cpuhotplug.MPDecision;
+import me.ayra.kerneladiutor.utils.kernel.cpuhotplug.MSMHotplug;
+import me.ayra.kerneladiutor.utils.kernel.cpuhotplug.MakoHotplug;
+import me.ayra.kerneladiutor.utils.kernel.cpuhotplug.ThunderPlug;
+import me.ayra.kerneladiutor.utils.kernel.cpuhotplug.ZenDecision;
+import me.ayra.kerneladiutor.views.recyclerview.DescriptionView;
+import me.ayra.kerneladiutor.views.recyclerview.RecyclerViewItem;
+import me.ayra.kerneladiutor.views.recyclerview.SeekBarView;
+import me.ayra.kerneladiutor.views.recyclerview.SelectView;
+import me.ayra.kerneladiutor.views.recyclerview.SwitchView;
+import me.ayra.kerneladiutor.views.recyclerview.TitleView;
 
 import java.util.ArrayList;
 import java.util.Arrays;

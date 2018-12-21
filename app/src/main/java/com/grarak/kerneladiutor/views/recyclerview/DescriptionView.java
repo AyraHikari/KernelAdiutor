@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.views.recyclerview;
+package me.ayra.kerneladiutor.views.recyclerview;
 
 import android.graphics.drawable.Drawable;
 import android.support.v7.widget.AppCompatImageView;
@@ -25,7 +25,7 @@ import android.support.v7.widget.AppCompatTextView;
 import android.text.method.MovementMethod;
 import android.view.View;
 
-import com.grarak.kerneladiutor.R;
+import me.ayra.kerneladiutor.R;
 
 /**
  * Created by willi on 17.04.16.

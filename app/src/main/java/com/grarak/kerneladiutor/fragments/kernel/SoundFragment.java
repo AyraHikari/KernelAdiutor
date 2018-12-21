@@ -17,16 +17,16 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.fragments.kernel;
+package me.ayra.kerneladiutor.fragments.kernel;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.fragments.ApplyOnBootFragment;
-import com.grarak.kerneladiutor.fragments.recyclerview.RecyclerViewFragment;
-import com.grarak.kerneladiutor.utils.kernel.sound.Sound;
-import com.grarak.kerneladiutor.views.recyclerview.RecyclerViewItem;
-import com.grarak.kerneladiutor.views.recyclerview.SeekBarView;
-import com.grarak.kerneladiutor.views.recyclerview.SwitchView;
-import com.grarak.kerneladiutor.views.recyclerview.TitleView;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.fragments.ApplyOnBootFragment;
+import me.ayra.kerneladiutor.fragments.recyclerview.RecyclerViewFragment;
+import me.ayra.kerneladiutor.utils.kernel.sound.Sound;
+import me.ayra.kerneladiutor.views.recyclerview.RecyclerViewItem;
+import me.ayra.kerneladiutor.views.recyclerview.SeekBarView;
+import me.ayra.kerneladiutor.views.recyclerview.SwitchView;
+import me.ayra.kerneladiutor.views.recyclerview.TitleView;
 
 import java.util.List;
 

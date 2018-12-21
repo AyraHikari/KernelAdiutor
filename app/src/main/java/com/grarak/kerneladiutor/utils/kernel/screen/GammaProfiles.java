@@ -17,9 +17,9 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.utils.kernel.screen;
+package me.ayra.kerneladiutor.utils.kernel.screen;
 
-import com.grarak.kerneladiutor.utils.Log;
+import me.ayra.kerneladiutor.utils.Log;
 
 import org.json.JSONArray;
 import org.json.JSONException;

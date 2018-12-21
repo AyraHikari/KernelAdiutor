@@ -17,11 +17,11 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.utils;
+package me.ayra.kerneladiutor.utils;
 
 import android.os.Build;
 
-import com.grarak.kerneladiutor.utils.root.RootUtils;
+import me.ayra.kerneladiutor.utils.root.RootUtils;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;

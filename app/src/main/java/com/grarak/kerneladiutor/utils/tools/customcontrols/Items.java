@@ -17,13 +17,13 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.utils.tools.customcontrols;
+package me.ayra.kerneladiutor.utils.tools.customcontrols;
 
 import android.content.Context;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import com.grarak.kerneladiutor.R;
+import me.ayra.kerneladiutor.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;

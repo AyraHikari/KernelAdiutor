@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.views.recyclerview;
+package me.ayra.kerneladiutor.views.recyclerview;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -25,8 +25,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.utils.AppSettings;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.utils.AppSettings;
 
 import java.util.HashMap;
 import java.util.List;

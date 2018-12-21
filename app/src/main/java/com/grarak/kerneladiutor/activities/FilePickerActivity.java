@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.activities;
+package me.ayra.kerneladiutor.activities;
 
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
@@ -28,14 +28,14 @@ import android.support.v4.content.ContextCompat;
 import android.support.v4.graphics.drawable.DrawableCompat;
 import android.support.v7.app.ActionBar;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.fragments.recyclerview.RecyclerViewFragment;
-import com.grarak.kerneladiutor.utils.Utils;
-import com.grarak.kerneladiutor.utils.ViewUtils;
-import com.grarak.kerneladiutor.utils.root.RootFile;
-import com.grarak.kerneladiutor.views.dialog.Dialog;
-import com.grarak.kerneladiutor.views.recyclerview.DescriptionView;
-import com.grarak.kerneladiutor.views.recyclerview.RecyclerViewItem;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.fragments.recyclerview.RecyclerViewFragment;
+import me.ayra.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.utils.ViewUtils;
+import me.ayra.kerneladiutor.utils.root.RootFile;
+import me.ayra.kerneladiutor.views.dialog.Dialog;
+import me.ayra.kerneladiutor.views.recyclerview.DescriptionView;
+import me.ayra.kerneladiutor.views.recyclerview.RecyclerViewItem;
 
 import java.util.ArrayList;
 import java.util.List;

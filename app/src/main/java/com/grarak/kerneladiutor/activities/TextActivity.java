@@ -17,14 +17,14 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.activities;
+package me.ayra.kerneladiutor.activities;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.widget.TextView;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.utils.Utils;
 
 /**
  * Created by willi on 14.04.16.

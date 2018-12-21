@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.views.dialog;
+package me.ayra.kerneladiutor.views.dialog;
 
 import android.app.AlertDialog;
 import android.content.Context;

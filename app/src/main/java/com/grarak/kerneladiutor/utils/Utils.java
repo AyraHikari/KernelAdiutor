@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.utils;
+package me.ayra.kerneladiutor.utils;
 
 import android.app.Activity;
 import android.app.ActivityManager;
@@ -45,11 +45,11 @@ import android.view.Display;
 import android.view.View;
 import android.widget.Toast;
 
-import com.grarak.kerneladiutor.BuildConfig;
-import com.grarak.kerneladiutor.activities.StartActivity;
-import com.grarak.kerneladiutor.activities.StartActivityMaterial;
-import com.grarak.kerneladiutor.utils.root.RootFile;
-import com.grarak.kerneladiutor.utils.root.RootUtils;
+import me.ayra.kerneladiutor.BuildConfig;
+import me.ayra.kerneladiutor.activities.StartActivity;
+import me.ayra.kerneladiutor.activities.StartActivityMaterial;
+import me.ayra.kerneladiutor.utils.root.RootFile;
+import me.ayra.kerneladiutor.utils.root.RootUtils;
 
 import java.io.BufferedReader;
 import java.io.File;

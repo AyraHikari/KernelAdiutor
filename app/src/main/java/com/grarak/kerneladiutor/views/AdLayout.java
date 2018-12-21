@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.views;
+package me.ayra.kerneladiutor.views;
 
 import android.app.Activity;
 import android.content.Context;
@@ -40,11 +40,11 @@ import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.utils.AppSettings;
-import com.grarak.kerneladiutor.utils.Utils;
-import com.grarak.kerneladiutor.utils.ViewUtils;
-import com.grarak.kerneladiutor.views.dialog.Dialog;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.utils.AppSettings;
+import me.ayra.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.utils.ViewUtils;
+import me.ayra.kerneladiutor.views.dialog.Dialog;
 
 import org.json.JSONArray;
 import org.json.JSONException;

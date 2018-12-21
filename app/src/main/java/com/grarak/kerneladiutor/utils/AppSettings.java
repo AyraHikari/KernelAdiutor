@@ -17,12 +17,12 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.utils;
+package me.ayra.kerneladiutor.utils;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
 
-import com.grarak.kerneladiutor.R;
+import me.ayra.kerneladiutor.R;
 
 /**
  * Created by willi on 11.03.18.

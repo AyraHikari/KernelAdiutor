@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.utils;
+package me.ayra.kerneladiutor.utils;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -36,8 +36,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.bumptech.glide.Glide;
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.views.dialog.Dialog;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.views.dialog.Dialog;
 
 /**
  * Created by willi on 16.04.16.
@@ -113,7 +113,7 @@ public class ViewUtils {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         Utils.launchUrl(
-                                "https://play.google.com/store/apps/details?id=com.grarak.kerneladiutordonate", context);
+                                "https://play.google.com/store/apps/details?id=me.ayra.kerneladiutordonate", context);
                     }
                 });
     }

@@ -17,15 +17,15 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.views.recyclerview.overallstatistics;
+package me.ayra.kerneladiutor.views.recyclerview.overallstatistics;
 
 import android.view.View;
 import android.widget.TextView;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.utils.Utils;
-import com.grarak.kerneladiutor.utils.kernel.cpu.Temperature;
-import com.grarak.kerneladiutor.views.recyclerview.RecyclerViewItem;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.utils.kernel.cpu.Temperature;
+import me.ayra.kerneladiutor.views.recyclerview.RecyclerViewItem;
 
 /**
  * Created by willi on 04.08.16.

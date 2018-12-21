@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.fragments.recyclerview;
+package me.ayra.kerneladiutor.fragments.recyclerview;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -54,18 +54,18 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.activities.BaseActivity;
-import com.grarak.kerneladiutor.activities.NavigationActivity;
-import com.grarak.kerneladiutor.fragments.BaseFragment;
-import com.grarak.kerneladiutor.fragments.LoadingFragment;
-import com.grarak.kerneladiutor.utils.AppSettings;
-import com.grarak.kerneladiutor.utils.Utils;
-import com.grarak.kerneladiutor.utils.ViewUtils;
-import com.grarak.kerneladiutor.views.dialog.ViewPagerDialog;
-import com.grarak.kerneladiutor.views.recyclerview.AdView;
-import com.grarak.kerneladiutor.views.recyclerview.RecyclerViewAdapter;
-import com.grarak.kerneladiutor.views.recyclerview.RecyclerViewItem;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.activities.BaseActivity;
+import me.ayra.kerneladiutor.activities.NavigationActivity;
+import me.ayra.kerneladiutor.fragments.BaseFragment;
+import me.ayra.kerneladiutor.fragments.LoadingFragment;
+import me.ayra.kerneladiutor.utils.AppSettings;
+import me.ayra.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.utils.ViewUtils;
+import me.ayra.kerneladiutor.views.dialog.ViewPagerDialog;
+import me.ayra.kerneladiutor.views.recyclerview.AdView;
+import me.ayra.kerneladiutor.views.recyclerview.RecyclerViewAdapter;
+import me.ayra.kerneladiutor.views.recyclerview.RecyclerViewItem;
 import com.viewpagerindicator.CirclePageIndicator;
 
 import java.lang.ref.WeakReference;

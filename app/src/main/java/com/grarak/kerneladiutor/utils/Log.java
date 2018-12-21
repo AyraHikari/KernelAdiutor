@@ -17,10 +17,10 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.utils;
+package me.ayra.kerneladiutor.utils;
 
 import com.crashlytics.android.Crashlytics;
-import com.grarak.kerneladiutor.BuildConfig;
+import me.ayra.kerneladiutor.BuildConfig;
 
 /**
  * Created by willi on 22.03.18.

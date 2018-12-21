@@ -17,20 +17,20 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.fragments.tools.downloads;
+package me.ayra.kerneladiutor.fragments.tools.downloads;
 
 import android.Manifest;
 import android.content.Intent;
 import android.support.design.widget.Snackbar;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.activities.tools.DownloadsActivity;
-import com.grarak.kerneladiutor.fragments.recyclerview.RecyclerViewFragment;
-import com.grarak.kerneladiutor.utils.Utils;
-import com.grarak.kerneladiutor.utils.WebpageReader;
-import com.grarak.kerneladiutor.utils.tools.SupportedDownloads;
-import com.grarak.kerneladiutor.views.recyclerview.RecyclerViewItem;
-import com.grarak.kerneladiutor.views.recyclerview.downloads.KernelItemView;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.activities.tools.DownloadsActivity;
+import me.ayra.kerneladiutor.fragments.recyclerview.RecyclerViewFragment;
+import me.ayra.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.utils.WebpageReader;
+import me.ayra.kerneladiutor.utils.tools.SupportedDownloads;
+import me.ayra.kerneladiutor.views.recyclerview.RecyclerViewItem;
+import me.ayra.kerneladiutor.views.recyclerview.downloads.KernelItemView;
 
 import java.util.ArrayList;
 import java.util.List;

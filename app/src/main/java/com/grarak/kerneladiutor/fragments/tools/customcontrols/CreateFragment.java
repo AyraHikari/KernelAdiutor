@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.fragments.tools.customcontrols;
+package me.ayra.kerneladiutor.fragments.tools.customcontrols;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -29,14 +29,14 @@ import android.text.Editable;
 import android.text.InputType;
 import android.text.TextWatcher;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.activities.EditorActivity;
-import com.grarak.kerneladiutor.activities.tools.CustomControlsActivity;
-import com.grarak.kerneladiutor.fragments.recyclerview.RecyclerViewFragment;
-import com.grarak.kerneladiutor.utils.tools.customcontrols.Items;
-import com.grarak.kerneladiutor.views.recyclerview.EditTextView;
-import com.grarak.kerneladiutor.views.recyclerview.RecyclerViewItem;
-import com.grarak.kerneladiutor.views.recyclerview.customcontrols.CodeView;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.activities.EditorActivity;
+import me.ayra.kerneladiutor.activities.tools.CustomControlsActivity;
+import me.ayra.kerneladiutor.fragments.recyclerview.RecyclerViewFragment;
+import me.ayra.kerneladiutor.utils.tools.customcontrols.Items;
+import me.ayra.kerneladiutor.views.recyclerview.EditTextView;
+import me.ayra.kerneladiutor.views.recyclerview.RecyclerViewItem;
+import me.ayra.kerneladiutor.views.recyclerview.customcontrols.CodeView;
 
 import java.util.ArrayList;
 import java.util.HashMap;

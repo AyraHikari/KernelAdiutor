@@ -1,4 +1,4 @@
-package com.grarak.kerneladiutor;
+package me.ayra.kerneladiutor;
 
 import org.junit.Test;
 

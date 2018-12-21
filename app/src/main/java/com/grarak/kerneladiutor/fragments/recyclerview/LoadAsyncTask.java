@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.fragments.recyclerview;
+package me.ayra.kerneladiutor.fragments.recyclerview;
 
 import android.os.AsyncTask;
 import android.support.annotation.NonNull;

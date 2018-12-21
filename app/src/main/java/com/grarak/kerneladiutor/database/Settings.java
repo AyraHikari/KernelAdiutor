@@ -17,11 +17,11 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.database;
+package me.ayra.kerneladiutor.database;
 
 import android.content.Context;
 
-import com.grarak.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.utils.Utils;
 
 import org.json.JSONException;
 import org.json.JSONObject;

@@ -17,17 +17,17 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.views.recyclerview.downloads;
+package me.ayra.kerneladiutor.views.recyclerview.downloads;
 
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.utils.Utils;
-import com.grarak.kerneladiutor.utils.ViewUtils;
-import com.grarak.kerneladiutor.utils.tools.SupportedDownloads;
-import com.grarak.kerneladiutor.views.recyclerview.RecyclerViewItem;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.utils.ViewUtils;
+import me.ayra.kerneladiutor.utils.tools.SupportedDownloads;
+import me.ayra.kerneladiutor.views.recyclerview.RecyclerViewItem;
 
 /**
  * Created by willi on 06.07.16.

@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.activities;
+package me.ayra.kerneladiutor.activities;
 
 import android.content.ComponentName;
 import android.content.Intent;
@@ -38,31 +38,31 @@ import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
 import com.google.android.gms.common.GooglePlayServicesRepairableException;
 import com.google.android.gms.security.ProviderInstaller;
-import com.grarak.kerneladiutor.BuildConfig;
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.database.tools.profiles.Profiles;
-import com.grarak.kerneladiutor.services.profile.Tile;
-import com.grarak.kerneladiutor.utils.AppSettings;
-import com.grarak.kerneladiutor.utils.Device;
-import com.grarak.kerneladiutor.utils.Log;
-import com.grarak.kerneladiutor.utils.Utils;
-import com.grarak.kerneladiutor.utils.kernel.battery.Battery;
-import com.grarak.kerneladiutor.utils.kernel.cpu.CPUBoost;
-import com.grarak.kerneladiutor.utils.kernel.cpu.CPUFreq;
-import com.grarak.kerneladiutor.utils.kernel.cpu.MSMPerformance;
-import com.grarak.kerneladiutor.utils.kernel.cpu.Temperature;
-import com.grarak.kerneladiutor.utils.kernel.cpuhotplug.Hotplug;
-import com.grarak.kerneladiutor.utils.kernel.cpuhotplug.QcomBcl;
-import com.grarak.kerneladiutor.utils.kernel.cpuvoltage.Voltage;
-import com.grarak.kerneladiutor.utils.kernel.gpu.GPU;
-import com.grarak.kerneladiutor.utils.kernel.io.IO;
-import com.grarak.kerneladiutor.utils.kernel.ksm.KSM;
-import com.grarak.kerneladiutor.utils.kernel.misc.Vibration;
-import com.grarak.kerneladiutor.utils.kernel.screen.Screen;
-import com.grarak.kerneladiutor.utils.kernel.sound.Sound;
-import com.grarak.kerneladiutor.utils.kernel.thermal.Thermal;
-import com.grarak.kerneladiutor.utils.kernel.wake.Wake;
-import com.grarak.kerneladiutor.utils.root.RootUtils;
+import me.ayra.kerneladiutor.BuildConfig;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.database.tools.profiles.Profiles;
+import me.ayra.kerneladiutor.services.profile.Tile;
+import me.ayra.kerneladiutor.utils.AppSettings;
+import me.ayra.kerneladiutor.utils.Device;
+import me.ayra.kerneladiutor.utils.Log;
+import me.ayra.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.utils.kernel.battery.Battery;
+import me.ayra.kerneladiutor.utils.kernel.cpu.CPUBoost;
+import me.ayra.kerneladiutor.utils.kernel.cpu.CPUFreq;
+import me.ayra.kerneladiutor.utils.kernel.cpu.MSMPerformance;
+import me.ayra.kerneladiutor.utils.kernel.cpu.Temperature;
+import me.ayra.kerneladiutor.utils.kernel.cpuhotplug.Hotplug;
+import me.ayra.kerneladiutor.utils.kernel.cpuhotplug.QcomBcl;
+import me.ayra.kerneladiutor.utils.kernel.cpuvoltage.Voltage;
+import me.ayra.kerneladiutor.utils.kernel.gpu.GPU;
+import me.ayra.kerneladiutor.utils.kernel.io.IO;
+import me.ayra.kerneladiutor.utils.kernel.ksm.KSM;
+import me.ayra.kerneladiutor.utils.kernel.misc.Vibration;
+import me.ayra.kerneladiutor.utils.kernel.screen.Screen;
+import me.ayra.kerneladiutor.utils.kernel.sound.Sound;
+import me.ayra.kerneladiutor.utils.kernel.thermal.Thermal;
+import me.ayra.kerneladiutor.utils.kernel.wake.Wake;
+import me.ayra.kerneladiutor.utils.root.RootUtils;
 
 import java.io.File;
 import java.io.IOException;
@@ -133,7 +133,7 @@ public class MainActivity extends BaseActivity {
             if (result == 0) {
                 try {
                     ApplicationInfo applicationInfo = getPackageManager().getApplicationInfo(
-                            "com.grarak.kerneladiutordonate", 0);
+                            "me.ayra.kerneladiutordonate", 0);
                     Utils.writeFile(applicationInfo.dataDir + "/license",
                             Utils.encodeString(Utils.getAndroidId(this)), false, true);
                 } catch (PackageManager.NameNotFoundException ignored) {
@@ -346,9 +346,9 @@ public class MainActivity extends BaseActivity {
             try {
                 PackageManager packageManager = activity.getPackageManager();
                 mApplicationInfo = packageManager.getApplicationInfo(
-                        "com.grarak.kerneladiutordonate", 0);
+                        "me.ayra.kerneladiutordonate", 0);
                 mPackageInfo = packageManager.getPackageInfo(
-                        "com.grarak.kerneladiutordonate", 0);
+                        "me.ayra.kerneladiutordonate", 0);
                 if (BuildConfig.DEBUG) {
                     Utils.DONATED = false;
                 }
@@ -408,8 +408,8 @@ public class MainActivity extends BaseActivity {
                 activity.launch(0);
             } else if (donationValid && mInternetAvailable) {
                 Intent intent = new Intent(Intent.ACTION_MAIN);
-                intent.setComponent(new ComponentName("com.grarak.kerneladiutordonate",
-                        "com.grarak.kerneladiutordonate.MainActivity"));
+                intent.setComponent(new ComponentName("me.ayra.kerneladiutordonate",
+                        "me.ayra.kerneladiutordonate.MainActivity"));
                 activity.startActivityForResult(intent, 0);
             } else if (donationValid) {
                 activity.launch(1);

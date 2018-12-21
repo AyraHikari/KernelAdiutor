@@ -1,4 +1,4 @@
-package com.grarak.kerneladiutor.utils;
+package me.ayra.kerneladiutor.utils;
 
 /**
  * Created by willi on 27.11.17.

@@ -1,10 +1,10 @@
-package com.grarak.kerneladiutor.utils.kernel.cpuhotplug;
+package me.ayra.kerneladiutor.utils.kernel.cpuhotplug;
 
 import android.content.Context;
 
-import com.grarak.kerneladiutor.fragments.ApplyOnBootFragment;
-import com.grarak.kerneladiutor.utils.Utils;
-import com.grarak.kerneladiutor.utils.root.Control;
+import me.ayra.kerneladiutor.fragments.ApplyOnBootFragment;
+import me.ayra.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.utils.root.Control;
 
 /**
  * Created by willi on 19.06.17.

@@ -15,7 +15,7 @@ android {
     compileSdkVersion 27
     buildToolsVersion "27.0.3"
     defaultConfig {
-        applicationId "com.grarak.kerneladiutor"
+        applicationId "me.ayra.kerneladiutor"
         minSdkVersion 15
         targetSdkVersion 27
         versionCode 262

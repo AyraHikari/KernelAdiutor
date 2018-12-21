@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.utils.kernel.wake;
+package me.ayra.kerneladiutor.utils.kernel.wake;
 
 /**
  * Created by willi on 23.06.16.

@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.fragments.tools;
+package me.ayra.kerneladiutor.fragments.tools;
 
 import android.Manifest;
 import android.appwidget.AppWidgetManager;
@@ -41,32 +41,32 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.activities.FilePickerActivity;
-import com.grarak.kerneladiutor.activities.NavigationActivity;
-import com.grarak.kerneladiutor.activities.tools.profile.ProfileActivity;
-import com.grarak.kerneladiutor.activities.tools.profile.ProfileEditActivity;
-import com.grarak.kerneladiutor.activities.tools.profile.ProfileTaskerActivity;
-import com.grarak.kerneladiutor.database.tools.profiles.ExportProfile;
-import com.grarak.kerneladiutor.database.tools.profiles.ImportProfile;
-import com.grarak.kerneladiutor.database.tools.profiles.Profiles;
-import com.grarak.kerneladiutor.fragments.BaseFragment;
-import com.grarak.kerneladiutor.fragments.DescriptionFragment;
-import com.grarak.kerneladiutor.fragments.recyclerview.RecyclerViewFragment;
-import com.grarak.kerneladiutor.fragments.SwitcherFragment;
-import com.grarak.kerneladiutor.services.boot.ApplyOnBoot;
-import com.grarak.kerneladiutor.services.profile.Tile;
-import com.grarak.kerneladiutor.services.profile.Widget;
-import com.grarak.kerneladiutor.utils.AppSettings;
-import com.grarak.kerneladiutor.utils.Utils;
-import com.grarak.kerneladiutor.utils.ViewUtils;
-import com.grarak.kerneladiutor.utils.kernel.cpu.CPUFreq;
-import com.grarak.kerneladiutor.utils.root.Control;
-import com.grarak.kerneladiutor.utils.root.RootUtils;
-import com.grarak.kerneladiutor.views.dialog.Dialog;
-import com.grarak.kerneladiutor.views.recyclerview.CardView;
-import com.grarak.kerneladiutor.views.recyclerview.DescriptionView;
-import com.grarak.kerneladiutor.views.recyclerview.RecyclerViewItem;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.activities.FilePickerActivity;
+import me.ayra.kerneladiutor.activities.NavigationActivity;
+import me.ayra.kerneladiutor.activities.tools.profile.ProfileActivity;
+import me.ayra.kerneladiutor.activities.tools.profile.ProfileEditActivity;
+import me.ayra.kerneladiutor.activities.tools.profile.ProfileTaskerActivity;
+import me.ayra.kerneladiutor.database.tools.profiles.ExportProfile;
+import me.ayra.kerneladiutor.database.tools.profiles.ImportProfile;
+import me.ayra.kerneladiutor.database.tools.profiles.Profiles;
+import me.ayra.kerneladiutor.fragments.BaseFragment;
+import me.ayra.kerneladiutor.fragments.DescriptionFragment;
+import me.ayra.kerneladiutor.fragments.recyclerview.RecyclerViewFragment;
+import me.ayra.kerneladiutor.fragments.SwitcherFragment;
+import me.ayra.kerneladiutor.services.boot.ApplyOnBoot;
+import me.ayra.kerneladiutor.services.profile.Tile;
+import me.ayra.kerneladiutor.services.profile.Widget;
+import me.ayra.kerneladiutor.utils.AppSettings;
+import me.ayra.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.utils.ViewUtils;
+import me.ayra.kerneladiutor.utils.kernel.cpu.CPUFreq;
+import me.ayra.kerneladiutor.utils.root.Control;
+import me.ayra.kerneladiutor.utils.root.RootUtils;
+import me.ayra.kerneladiutor.views.dialog.Dialog;
+import me.ayra.kerneladiutor.views.recyclerview.CardView;
+import me.ayra.kerneladiutor.views.recyclerview.DescriptionView;
+import me.ayra.kerneladiutor.views.recyclerview.RecyclerViewItem;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;

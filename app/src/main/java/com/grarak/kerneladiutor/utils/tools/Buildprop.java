@@ -17,13 +17,13 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.utils.tools;
+package me.ayra.kerneladiutor.utils.tools;
 
 import android.os.Environment;
 
-import com.grarak.kerneladiutor.utils.Utils;
-import com.grarak.kerneladiutor.utils.root.RootFile;
-import com.grarak.kerneladiutor.utils.root.RootUtils;
+import me.ayra.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.utils.root.RootFile;
+import me.ayra.kerneladiutor.utils.root.RootUtils;
 
 import java.io.File;
 import java.util.LinkedHashMap;

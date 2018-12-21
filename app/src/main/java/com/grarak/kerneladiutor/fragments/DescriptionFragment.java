@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.fragments;
+package me.ayra.kerneladiutor.fragments;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -27,8 +27,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.utils.Utils;
 
 /**
  * Created by willi on 01.05.16.

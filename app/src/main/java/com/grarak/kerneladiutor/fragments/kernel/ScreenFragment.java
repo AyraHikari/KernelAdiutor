@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.fragments.kernel;
+package me.ayra.kerneladiutor.fragments.kernel;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -26,23 +26,23 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.fragments.ApplyOnBootFragment;
-import com.grarak.kerneladiutor.fragments.BaseFragment;
-import com.grarak.kerneladiutor.fragments.recyclerview.RecyclerViewFragment;
-import com.grarak.kerneladiutor.utils.AppSettings;
-import com.grarak.kerneladiutor.utils.Utils;
-import com.grarak.kerneladiutor.utils.kernel.screen.Calibration;
-import com.grarak.kerneladiutor.utils.kernel.screen.Gamma;
-import com.grarak.kerneladiutor.utils.kernel.screen.GammaProfiles;
-import com.grarak.kerneladiutor.utils.kernel.screen.Misc;
-import com.grarak.kerneladiutor.views.ColorTable;
-import com.grarak.kerneladiutor.views.recyclerview.CardView;
-import com.grarak.kerneladiutor.views.recyclerview.DropDownView;
-import com.grarak.kerneladiutor.views.recyclerview.GenericSelectView;
-import com.grarak.kerneladiutor.views.recyclerview.RecyclerViewItem;
-import com.grarak.kerneladiutor.views.recyclerview.SeekBarView;
-import com.grarak.kerneladiutor.views.recyclerview.SwitchView;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.fragments.ApplyOnBootFragment;
+import me.ayra.kerneladiutor.fragments.BaseFragment;
+import me.ayra.kerneladiutor.fragments.recyclerview.RecyclerViewFragment;
+import me.ayra.kerneladiutor.utils.AppSettings;
+import me.ayra.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.utils.kernel.screen.Calibration;
+import me.ayra.kerneladiutor.utils.kernel.screen.Gamma;
+import me.ayra.kerneladiutor.utils.kernel.screen.GammaProfiles;
+import me.ayra.kerneladiutor.utils.kernel.screen.Misc;
+import me.ayra.kerneladiutor.views.ColorTable;
+import me.ayra.kerneladiutor.views.recyclerview.CardView;
+import me.ayra.kerneladiutor.views.recyclerview.DropDownView;
+import me.ayra.kerneladiutor.views.recyclerview.GenericSelectView;
+import me.ayra.kerneladiutor.views.recyclerview.RecyclerViewItem;
+import me.ayra.kerneladiutor.views.recyclerview.SeekBarView;
+import me.ayra.kerneladiutor.views.recyclerview.SwitchView;
 
 import java.util.ArrayList;
 import java.util.List;

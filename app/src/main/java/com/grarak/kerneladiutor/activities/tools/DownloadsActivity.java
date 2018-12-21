@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.activities.tools;
+package me.ayra.kerneladiutor.activities.tools;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -27,13 +27,13 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.activities.BaseActivity;
-import com.grarak.kerneladiutor.fragments.tools.downloads.AboutFragment;
-import com.grarak.kerneladiutor.fragments.tools.downloads.DownloadKernelFragment;
-import com.grarak.kerneladiutor.fragments.tools.downloads.FeaturesFragment;
-import com.grarak.kerneladiutor.utils.Utils;
-import com.grarak.kerneladiutor.utils.tools.SupportedDownloads;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.activities.BaseActivity;
+import me.ayra.kerneladiutor.fragments.tools.downloads.AboutFragment;
+import me.ayra.kerneladiutor.fragments.tools.downloads.DownloadKernelFragment;
+import me.ayra.kerneladiutor.fragments.tools.downloads.FeaturesFragment;
+import me.ayra.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.utils.tools.SupportedDownloads;
 
 import java.util.LinkedHashMap;
 import java.util.List;

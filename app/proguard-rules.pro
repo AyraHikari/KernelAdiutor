@@ -17,7 +17,7 @@
 #}
 -keepattributes Signature,*Annotation*
 
--keep class com.grarak.kerneladiutor.** { *; }
+-keep class me.ayra.kerneladiutor.** { *; }
 
 -keep class com.bumptech.glide.** { *; }
 

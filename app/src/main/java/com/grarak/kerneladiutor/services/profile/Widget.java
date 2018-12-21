@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.services.profile;
+package me.ayra.kerneladiutor.services.profile;
 
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
@@ -31,12 +31,12 @@ import android.util.SparseArray;
 import android.widget.RemoteViews;
 import android.widget.RemoteViewsService;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.database.tools.profiles.Profiles;
-import com.grarak.kerneladiutor.services.boot.ApplyOnBoot;
-import com.grarak.kerneladiutor.utils.Utils;
-import com.grarak.kerneladiutor.utils.kernel.cpu.CPUFreq;
-import com.grarak.kerneladiutor.utils.root.RootUtils;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.database.tools.profiles.Profiles;
+import me.ayra.kerneladiutor.services.boot.ApplyOnBoot;
+import me.ayra.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.utils.kernel.cpu.CPUFreq;
+import me.ayra.kerneladiutor.utils.root.RootUtils;
 
 import java.util.ArrayList;
 import java.util.List;

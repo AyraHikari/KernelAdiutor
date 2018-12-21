@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.activities;
+package me.ayra.kerneladiutor.activities;
 
 import android.app.KeyguardManager;
 import android.os.Build;
@@ -35,10 +35,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.utils.AppSettings;
-import com.grarak.kerneladiutor.utils.FingerprintUiHelper;
-import com.grarak.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.utils.AppSettings;
+import me.ayra.kerneladiutor.utils.FingerprintUiHelper;
+import me.ayra.kerneladiutor.utils.Utils;
 import com.mattprecious.swirl.SwirlView;
 
 import java.io.IOException;

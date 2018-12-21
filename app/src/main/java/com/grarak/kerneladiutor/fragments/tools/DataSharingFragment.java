@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.fragments.tools;
+package me.ayra.kerneladiutor.fragments.tools;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -28,16 +28,16 @@ import android.graphics.drawable.Drawable;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.graphics.drawable.DrawableCompat;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.activities.DataSharingSearchActivity;
-import com.grarak.kerneladiutor.fragments.DescriptionFragment;
-import com.grarak.kerneladiutor.fragments.recyclerview.RecyclerViewFragment;
-import com.grarak.kerneladiutor.services.monitor.Monitor;
-import com.grarak.kerneladiutor.utils.AppSettings;
-import com.grarak.kerneladiutor.utils.Utils;
-import com.grarak.kerneladiutor.utils.ViewUtils;
-import com.grarak.kerneladiutor.views.recyclerview.RecyclerViewItem;
-import com.grarak.kerneladiutor.views.recyclerview.SwitchView;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.activities.DataSharingSearchActivity;
+import me.ayra.kerneladiutor.fragments.DescriptionFragment;
+import me.ayra.kerneladiutor.fragments.recyclerview.RecyclerViewFragment;
+import me.ayra.kerneladiutor.services.monitor.Monitor;
+import me.ayra.kerneladiutor.utils.AppSettings;
+import me.ayra.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.utils.ViewUtils;
+import me.ayra.kerneladiutor.views.recyclerview.RecyclerViewItem;
+import me.ayra.kerneladiutor.views.recyclerview.SwitchView;
 
 import java.util.List;
 

@@ -17,14 +17,14 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.utils.kernel.misc;
+package me.ayra.kerneladiutor.utils.kernel.misc;
 
 import android.content.Context;
 
-import com.grarak.kerneladiutor.fragments.ApplyOnBootFragment;
-import com.grarak.kerneladiutor.utils.Utils;
-import com.grarak.kerneladiutor.utils.root.Control;
-import com.grarak.kerneladiutor.utils.root.RootUtils;
+import me.ayra.kerneladiutor.fragments.ApplyOnBootFragment;
+import me.ayra.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.utils.root.Control;
+import me.ayra.kerneladiutor.utils.root.RootUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.activities.tools.profile;
+package me.ayra.kerneladiutor.activities.tools.profile;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -37,16 +37,16 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.activities.BaseActivity;
-import com.grarak.kerneladiutor.activities.NavigationActivity;
-import com.grarak.kerneladiutor.database.Settings;
-import com.grarak.kerneladiutor.fragments.ApplyOnBootFragment;
-import com.grarak.kerneladiutor.fragments.BaseFragment;
-import com.grarak.kerneladiutor.utils.Utils;
-import com.grarak.kerneladiutor.utils.ViewUtils;
-import com.grarak.kerneladiutor.utils.root.Control;
-import com.grarak.kerneladiutor.views.dialog.Dialog;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.activities.BaseActivity;
+import me.ayra.kerneladiutor.activities.NavigationActivity;
+import me.ayra.kerneladiutor.database.Settings;
+import me.ayra.kerneladiutor.fragments.ApplyOnBootFragment;
+import me.ayra.kerneladiutor.fragments.BaseFragment;
+import me.ayra.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.utils.ViewUtils;
+import me.ayra.kerneladiutor.utils.root.Control;
+import me.ayra.kerneladiutor.views.dialog.Dialog;
 
 import java.util.ArrayList;
 import java.util.Collections;

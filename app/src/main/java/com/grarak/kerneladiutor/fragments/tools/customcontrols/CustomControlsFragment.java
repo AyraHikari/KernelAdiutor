@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.fragments.tools.customcontrols;
+package me.ayra.kerneladiutor.fragments.tools.customcontrols;
 
 import android.Manifest;
 import android.content.Intent;
@@ -30,26 +30,26 @@ import android.support.v4.graphics.drawable.DrawableCompat;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.activities.FilePickerActivity;
-import com.grarak.kerneladiutor.activities.tools.CustomControlsActivity;
-import com.grarak.kerneladiutor.database.tools.customcontrols.Controls;
-import com.grarak.kerneladiutor.database.tools.customcontrols.ExportControl;
-import com.grarak.kerneladiutor.database.tools.customcontrols.ImportControl;
-import com.grarak.kerneladiutor.fragments.DescriptionFragment;
-import com.grarak.kerneladiutor.fragments.recyclerview.RecyclerViewFragment;
-import com.grarak.kerneladiutor.utils.Utils;
-import com.grarak.kerneladiutor.utils.ViewUtils;
-import com.grarak.kerneladiutor.utils.tools.customcontrols.CustomControlException;
-import com.grarak.kerneladiutor.utils.tools.customcontrols.Items;
-import com.grarak.kerneladiutor.utils.tools.customcontrols.Values;
-import com.grarak.kerneladiutor.views.dialog.Dialog;
-import com.grarak.kerneladiutor.views.recyclerview.CardView;
-import com.grarak.kerneladiutor.views.recyclerview.GenericSelectView;
-import com.grarak.kerneladiutor.views.recyclerview.RecyclerViewItem;
-import com.grarak.kerneladiutor.views.recyclerview.SeekBarView;
-import com.grarak.kerneladiutor.views.recyclerview.SwitchView;
-import com.grarak.kerneladiutor.views.recyclerview.customcontrols.ErrorView;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.activities.FilePickerActivity;
+import me.ayra.kerneladiutor.activities.tools.CustomControlsActivity;
+import me.ayra.kerneladiutor.database.tools.customcontrols.Controls;
+import me.ayra.kerneladiutor.database.tools.customcontrols.ExportControl;
+import me.ayra.kerneladiutor.database.tools.customcontrols.ImportControl;
+import me.ayra.kerneladiutor.fragments.DescriptionFragment;
+import me.ayra.kerneladiutor.fragments.recyclerview.RecyclerViewFragment;
+import me.ayra.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.utils.ViewUtils;
+import me.ayra.kerneladiutor.utils.tools.customcontrols.CustomControlException;
+import me.ayra.kerneladiutor.utils.tools.customcontrols.Items;
+import me.ayra.kerneladiutor.utils.tools.customcontrols.Values;
+import me.ayra.kerneladiutor.views.dialog.Dialog;
+import me.ayra.kerneladiutor.views.recyclerview.CardView;
+import me.ayra.kerneladiutor.views.recyclerview.GenericSelectView;
+import me.ayra.kerneladiutor.views.recyclerview.RecyclerViewItem;
+import me.ayra.kerneladiutor.views.recyclerview.SeekBarView;
+import me.ayra.kerneladiutor.views.recyclerview.SwitchView;
+import me.ayra.kerneladiutor.views.recyclerview.customcontrols.ErrorView;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;

@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.fragments;
+package me.ayra.kerneladiutor.fragments;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -28,26 +28,26 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.activities.tools.profile.ProfileActivity;
-import com.grarak.kerneladiutor.fragments.kernel.BatteryFragment;
-import com.grarak.kerneladiutor.fragments.kernel.CPUFragment;
-import com.grarak.kerneladiutor.fragments.kernel.CPUHotplugFragment;
-import com.grarak.kerneladiutor.fragments.kernel.CPUVoltageFragment;
-import com.grarak.kerneladiutor.fragments.kernel.EntropyFragment;
-import com.grarak.kerneladiutor.fragments.kernel.GPUFragment;
-import com.grarak.kerneladiutor.fragments.kernel.IOFragment;
-import com.grarak.kerneladiutor.fragments.kernel.KSMFragment;
-import com.grarak.kerneladiutor.fragments.kernel.LEDFragment;
-import com.grarak.kerneladiutor.fragments.kernel.LMKFragment;
-import com.grarak.kerneladiutor.fragments.kernel.MiscFragment;
-import com.grarak.kerneladiutor.fragments.kernel.ScreenFragment;
-import com.grarak.kerneladiutor.fragments.kernel.SoundFragment;
-import com.grarak.kerneladiutor.fragments.kernel.ThermalFragment;
-import com.grarak.kerneladiutor.fragments.kernel.VMFragment;
-import com.grarak.kerneladiutor.fragments.kernel.WakeFragment;
-import com.grarak.kerneladiutor.fragments.recyclerview.RecyclerViewFragment;
-import com.grarak.kerneladiutor.utils.AppSettings;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.activities.tools.profile.ProfileActivity;
+import me.ayra.kerneladiutor.fragments.kernel.BatteryFragment;
+import me.ayra.kerneladiutor.fragments.kernel.CPUFragment;
+import me.ayra.kerneladiutor.fragments.kernel.CPUHotplugFragment;
+import me.ayra.kerneladiutor.fragments.kernel.CPUVoltageFragment;
+import me.ayra.kerneladiutor.fragments.kernel.EntropyFragment;
+import me.ayra.kerneladiutor.fragments.kernel.GPUFragment;
+import me.ayra.kerneladiutor.fragments.kernel.IOFragment;
+import me.ayra.kerneladiutor.fragments.kernel.KSMFragment;
+import me.ayra.kerneladiutor.fragments.kernel.LEDFragment;
+import me.ayra.kerneladiutor.fragments.kernel.LMKFragment;
+import me.ayra.kerneladiutor.fragments.kernel.MiscFragment;
+import me.ayra.kerneladiutor.fragments.kernel.ScreenFragment;
+import me.ayra.kerneladiutor.fragments.kernel.SoundFragment;
+import me.ayra.kerneladiutor.fragments.kernel.ThermalFragment;
+import me.ayra.kerneladiutor.fragments.kernel.VMFragment;
+import me.ayra.kerneladiutor.fragments.kernel.WakeFragment;
+import me.ayra.kerneladiutor.fragments.recyclerview.RecyclerViewFragment;
+import me.ayra.kerneladiutor.utils.AppSettings;
 
 import java.util.HashMap;
 

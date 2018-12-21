@@ -17,10 +17,10 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.utils.root;
+package me.ayra.kerneladiutor.utils.root;
 
-import com.grarak.kerneladiutor.utils.Log;
-import com.grarak.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.utils.Log;
+import me.ayra.kerneladiutor.utils.Utils;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

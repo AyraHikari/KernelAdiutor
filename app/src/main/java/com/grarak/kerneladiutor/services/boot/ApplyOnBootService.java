@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.services.boot;
+package me.ayra.kerneladiutor.services.boot;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -33,9 +33,9 @@ import android.os.Messenger;
 import android.os.RemoteException;
 import android.support.annotation.Nullable;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.utils.NotificationId;
-import com.grarak.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.utils.NotificationId;
+import me.ayra.kerneladiutor.utils.Utils;
 
 /**
  * Created by willi on 03.05.16.

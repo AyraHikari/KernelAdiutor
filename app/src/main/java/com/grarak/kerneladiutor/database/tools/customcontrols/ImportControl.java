@@ -17,10 +17,10 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.database.tools.customcontrols;
+package me.ayra.kerneladiutor.database.tools.customcontrols;
 
-import com.grarak.kerneladiutor.utils.Utils;
-import com.grarak.kerneladiutor.utils.tools.customcontrols.Items;
+import me.ayra.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.utils.tools.customcontrols.Items;
 
 import org.json.JSONException;
 import org.json.JSONObject;

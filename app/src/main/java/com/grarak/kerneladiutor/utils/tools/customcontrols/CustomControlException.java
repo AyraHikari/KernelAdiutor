@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.utils.tools.customcontrols;
+package me.ayra.kerneladiutor.utils.tools.customcontrols;
 
 /**
  * Created by willi on 02.07.16.

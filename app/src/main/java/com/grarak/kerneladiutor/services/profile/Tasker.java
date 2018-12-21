@@ -17,21 +17,21 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.services.profile;
+package me.ayra.kerneladiutor.services.profile;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import com.grarak.kerneladiutor.utils.Log;
+import me.ayra.kerneladiutor.utils.Log;
 import android.widget.Toast;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.services.boot.ApplyOnBoot;
-import com.grarak.kerneladiutor.utils.AppSettings;
-import com.grarak.kerneladiutor.utils.Utils;
-import com.grarak.kerneladiutor.utils.kernel.cpu.CPUFreq;
-import com.grarak.kerneladiutor.utils.root.RootUtils;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.services.boot.ApplyOnBoot;
+import me.ayra.kerneladiutor.utils.AppSettings;
+import me.ayra.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.utils.kernel.cpu.CPUFreq;
+import me.ayra.kerneladiutor.utils.root.RootUtils;
 
 /**
  * Created by willi on 21.07.16.
@@ -43,8 +43,8 @@ public class Tasker extends BroadcastReceiver {
     public static final String EXTRA_BUNDLE = "com.twofortyfouram.locale.intent.extra.BUNDLE";
     public static final String EXTRA_STRING_BLURB = "com.twofortyfouram.locale.intent.extra.BLURB";
     public static final String ACTION_FIRE_SETTING = "com.twofortyfouram.locale.intent.action.FIRE_SETTING";
-    public static final String BUNDLE_EXTRA_STRING_MESSAGE = "com.grarak.kerneladiutor.tasker.extra.STRING_MESSAGE";
-    public static final String BUNDLE_EXTRA_INT_VERSION_CODE = "com.grarak.kerneladiutor.tasker.extra.INT_VERSION_CODE";
+    public static final String BUNDLE_EXTRA_STRING_MESSAGE = "me.ayra.kerneladiutor.tasker.extra.STRING_MESSAGE";
+    public static final String BUNDLE_EXTRA_INT_VERSION_CODE = "me.ayra.kerneladiutor.tasker.extra.INT_VERSION_CODE";
     public static final String DIVIDER = "wkefnewnfewp";
 
     @Override

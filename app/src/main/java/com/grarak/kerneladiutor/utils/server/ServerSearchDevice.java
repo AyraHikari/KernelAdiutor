@@ -17,11 +17,11 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.utils.server;
+package me.ayra.kerneladiutor.utils.server;
 
 import android.app.Activity;
 
-import com.grarak.kerneladiutor.utils.WebpageReader;
+import me.ayra.kerneladiutor.utils.WebpageReader;
 
 import org.json.JSONArray;
 import org.json.JSONException;

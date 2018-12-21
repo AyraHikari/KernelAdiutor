@@ -17,20 +17,20 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.utils.kernel.cpu;
+package me.ayra.kerneladiutor.utils.kernel.cpu;
 
 import android.content.Context;
 import android.util.SparseArray;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.fragments.ApplyOnBootFragment;
-import com.grarak.kerneladiutor.utils.AppSettings;
-import com.grarak.kerneladiutor.utils.Device;
-import com.grarak.kerneladiutor.utils.Utils;
-import com.grarak.kerneladiutor.utils.kernel.cpuhotplug.CoreCtl;
-import com.grarak.kerneladiutor.utils.kernel.cpuhotplug.MPDecision;
-import com.grarak.kerneladiutor.utils.kernel.cpuhotplug.QcomBcl;
-import com.grarak.kerneladiutor.utils.root.Control;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.fragments.ApplyOnBootFragment;
+import me.ayra.kerneladiutor.utils.AppSettings;
+import me.ayra.kerneladiutor.utils.Device;
+import me.ayra.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.utils.kernel.cpuhotplug.CoreCtl;
+import me.ayra.kerneladiutor.utils.kernel.cpuhotplug.MPDecision;
+import me.ayra.kerneladiutor.utils.kernel.cpuhotplug.QcomBcl;
+import me.ayra.kerneladiutor.utils.root.Control;
 
 import org.json.JSONArray;
 import org.json.JSONException;

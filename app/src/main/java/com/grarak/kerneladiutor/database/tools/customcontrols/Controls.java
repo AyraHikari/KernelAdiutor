@@ -17,12 +17,12 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.database.tools.customcontrols;
+package me.ayra.kerneladiutor.database.tools.customcontrols;
 
 import android.content.Context;
 
-import com.grarak.kerneladiutor.database.Provider;
-import com.grarak.kerneladiutor.utils.tools.customcontrols.Items;
+import me.ayra.kerneladiutor.database.Provider;
+import me.ayra.kerneladiutor.utils.tools.customcontrols.Items;
 
 import org.json.JSONException;
 import org.json.JSONObject;

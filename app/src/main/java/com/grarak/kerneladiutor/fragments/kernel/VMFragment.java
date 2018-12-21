@@ -17,22 +17,22 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.fragments.kernel;
+package me.ayra.kerneladiutor.fragments.kernel;
 
 import android.text.InputType;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.fragments.ApplyOnBootFragment;
-import com.grarak.kerneladiutor.fragments.recyclerview.RecyclerViewFragment;
-import com.grarak.kerneladiutor.utils.kernel.vm.VM;
-import com.grarak.kerneladiutor.utils.kernel.vm.ZRAM;
-import com.grarak.kerneladiutor.utils.kernel.vm.ZSwap;
-import com.grarak.kerneladiutor.views.recyclerview.CardView;
-import com.grarak.kerneladiutor.views.recyclerview.GenericSelectView;
-import com.grarak.kerneladiutor.views.recyclerview.RecyclerViewItem;
-import com.grarak.kerneladiutor.views.recyclerview.SeekBarView;
-import com.grarak.kerneladiutor.views.recyclerview.SwitchView;
-import com.grarak.kerneladiutor.views.recyclerview.TitleView;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.fragments.ApplyOnBootFragment;
+import me.ayra.kerneladiutor.fragments.recyclerview.RecyclerViewFragment;
+import me.ayra.kerneladiutor.utils.kernel.vm.VM;
+import me.ayra.kerneladiutor.utils.kernel.vm.ZRAM;
+import me.ayra.kerneladiutor.utils.kernel.vm.ZSwap;
+import me.ayra.kerneladiutor.views.recyclerview.CardView;
+import me.ayra.kerneladiutor.views.recyclerview.GenericSelectView;
+import me.ayra.kerneladiutor.views.recyclerview.RecyclerViewItem;
+import me.ayra.kerneladiutor.views.recyclerview.SeekBarView;
+import me.ayra.kerneladiutor.views.recyclerview.SwitchView;
+import me.ayra.kerneladiutor.views.recyclerview.TitleView;
 
 import java.util.ArrayList;
 import java.util.List;

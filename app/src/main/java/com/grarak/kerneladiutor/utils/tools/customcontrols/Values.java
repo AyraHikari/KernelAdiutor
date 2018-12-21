@@ -17,10 +17,10 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.utils.tools.customcontrols;
+package me.ayra.kerneladiutor.utils.tools.customcontrols;
 
-import com.grarak.kerneladiutor.database.tools.customcontrols.Controls;
-import com.grarak.kerneladiutor.utils.root.RootUtils;
+import me.ayra.kerneladiutor.database.tools.customcontrols.Controls;
+import me.ayra.kerneladiutor.utils.root.RootUtils;
 
 import java.util.List;
 import java.util.Random;

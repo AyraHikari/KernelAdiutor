@@ -17,21 +17,21 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.services.profile;
+package me.ayra.kerneladiutor.services.profile;
 
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import com.grarak.kerneladiutor.utils.Log;
+import me.ayra.kerneladiutor.utils.Log;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.database.tools.profiles.Profiles;
-import com.grarak.kerneladiutor.services.boot.ApplyOnBoot;
-import com.grarak.kerneladiutor.utils.AppSettings;
-import com.grarak.kerneladiutor.utils.Utils;
-import com.grarak.kerneladiutor.utils.kernel.cpu.CPUFreq;
-import com.grarak.kerneladiutor.utils.root.RootUtils;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.database.tools.profiles.Profiles;
+import me.ayra.kerneladiutor.services.boot.ApplyOnBoot;
+import me.ayra.kerneladiutor.utils.AppSettings;
+import me.ayra.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.utils.kernel.cpu.CPUFreq;
+import me.ayra.kerneladiutor.utils.root.RootUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -48,7 +48,7 @@ public class Tile extends BroadcastReceiver {
 
     private static final String NAME = "name";
     private static final String COMMANDS = "commands";
-    private static final String ACTION_TOGGLE_STATE = "com.grarak.kerneladiutor.action.ACTION_TOGGLE_STATE";
+    private static final String ACTION_TOGGLE_STATE = "me.ayra.kerneladiutor.action.ACTION_TOGGLE_STATE";
 
     @Override
     public void onReceive(Context context, Intent intent) {

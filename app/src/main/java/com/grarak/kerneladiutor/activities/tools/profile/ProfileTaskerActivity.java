@@ -17,19 +17,19 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.activities.tools.profile;
+package me.ayra.kerneladiutor.activities.tools.profile;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 
-import com.grarak.kerneladiutor.BuildConfig;
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.activities.BaseActivity;
-import com.grarak.kerneladiutor.database.tools.profiles.Profiles;
-import com.grarak.kerneladiutor.fragments.tools.ProfileFragment;
-import com.grarak.kerneladiutor.services.profile.Tasker;
+import me.ayra.kerneladiutor.BuildConfig;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.activities.BaseActivity;
+import me.ayra.kerneladiutor.database.tools.profiles.Profiles;
+import me.ayra.kerneladiutor.fragments.tools.ProfileFragment;
+import me.ayra.kerneladiutor.services.profile.Tasker;
 
 import java.util.List;
 

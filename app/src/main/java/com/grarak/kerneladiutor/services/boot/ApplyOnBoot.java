@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.services.boot;
+package me.ayra.kerneladiutor.services.boot;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -29,24 +29,24 @@ import android.os.Build;
 import android.os.Handler;
 import android.support.v4.app.NotificationCompat;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.activities.MainActivity;
-import com.grarak.kerneladiutor.database.Settings;
-import com.grarak.kerneladiutor.database.tools.customcontrols.Controls;
-import com.grarak.kerneladiutor.database.tools.profiles.Profiles;
-import com.grarak.kerneladiutor.fragments.ApplyOnBootFragment;
-import com.grarak.kerneladiutor.fragments.kernel.CPUHotplugFragment;
-import com.grarak.kerneladiutor.services.profile.Tile;
-import com.grarak.kerneladiutor.utils.AppSettings;
-import com.grarak.kerneladiutor.utils.NotificationId;
-import com.grarak.kerneladiutor.utils.Utils;
-import com.grarak.kerneladiutor.utils.kernel.cpu.CPUFreq;
-import com.grarak.kerneladiutor.utils.kernel.cpu.MSMPerformance;
-import com.grarak.kerneladiutor.utils.kernel.cpuhotplug.CoreCtl;
-import com.grarak.kerneladiutor.utils.kernel.cpuhotplug.MPDecision;
-import com.grarak.kerneladiutor.utils.root.Control;
-import com.grarak.kerneladiutor.utils.root.RootFile;
-import com.grarak.kerneladiutor.utils.root.RootUtils;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.activities.MainActivity;
+import me.ayra.kerneladiutor.database.Settings;
+import me.ayra.kerneladiutor.database.tools.customcontrols.Controls;
+import me.ayra.kerneladiutor.database.tools.profiles.Profiles;
+import me.ayra.kerneladiutor.fragments.ApplyOnBootFragment;
+import me.ayra.kerneladiutor.fragments.kernel.CPUHotplugFragment;
+import me.ayra.kerneladiutor.services.profile.Tile;
+import me.ayra.kerneladiutor.utils.AppSettings;
+import me.ayra.kerneladiutor.utils.NotificationId;
+import me.ayra.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.utils.kernel.cpu.CPUFreq;
+import me.ayra.kerneladiutor.utils.kernel.cpu.MSMPerformance;
+import me.ayra.kerneladiutor.utils.kernel.cpuhotplug.CoreCtl;
+import me.ayra.kerneladiutor.utils.kernel.cpuhotplug.MPDecision;
+import me.ayra.kerneladiutor.utils.root.Control;
+import me.ayra.kerneladiutor.utils.root.RootFile;
+import me.ayra.kerneladiutor.utils.root.RootUtils;
 
 import java.util.ArrayList;
 import java.util.HashMap;

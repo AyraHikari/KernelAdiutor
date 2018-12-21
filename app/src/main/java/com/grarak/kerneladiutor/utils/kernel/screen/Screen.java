@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.utils.kernel.screen;
+package me.ayra.kerneladiutor.utils.kernel.screen;
 
 /**
  * Created by willi on 01.06.16.

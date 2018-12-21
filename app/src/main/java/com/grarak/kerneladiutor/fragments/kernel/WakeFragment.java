@@ -17,23 +17,23 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.fragments.kernel;
+package me.ayra.kerneladiutor.fragments.kernel;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.fragments.ApplyOnBootFragment;
-import com.grarak.kerneladiutor.fragments.recyclerview.RecyclerViewFragment;
-import com.grarak.kerneladiutor.utils.kernel.wake.Dt2s;
-import com.grarak.kerneladiutor.utils.kernel.wake.Dt2w;
-import com.grarak.kerneladiutor.utils.kernel.wake.Gestures;
-import com.grarak.kerneladiutor.utils.kernel.wake.Misc;
-import com.grarak.kerneladiutor.utils.kernel.wake.S2s;
-import com.grarak.kerneladiutor.utils.kernel.wake.S2w;
-import com.grarak.kerneladiutor.utils.kernel.wake.T2w;
-import com.grarak.kerneladiutor.views.recyclerview.CardView;
-import com.grarak.kerneladiutor.views.recyclerview.RecyclerViewItem;
-import com.grarak.kerneladiutor.views.recyclerview.SeekBarView;
-import com.grarak.kerneladiutor.views.recyclerview.SelectView;
-import com.grarak.kerneladiutor.views.recyclerview.SwitchView;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.fragments.ApplyOnBootFragment;
+import me.ayra.kerneladiutor.fragments.recyclerview.RecyclerViewFragment;
+import me.ayra.kerneladiutor.utils.kernel.wake.Dt2s;
+import me.ayra.kerneladiutor.utils.kernel.wake.Dt2w;
+import me.ayra.kerneladiutor.utils.kernel.wake.Gestures;
+import me.ayra.kerneladiutor.utils.kernel.wake.Misc;
+import me.ayra.kerneladiutor.utils.kernel.wake.S2s;
+import me.ayra.kerneladiutor.utils.kernel.wake.S2w;
+import me.ayra.kerneladiutor.utils.kernel.wake.T2w;
+import me.ayra.kerneladiutor.views.recyclerview.CardView;
+import me.ayra.kerneladiutor.views.recyclerview.RecyclerViewItem;
+import me.ayra.kerneladiutor.views.recyclerview.SeekBarView;
+import me.ayra.kerneladiutor.views.recyclerview.SelectView;
+import me.ayra.kerneladiutor.views.recyclerview.SwitchView;
 
 import java.util.ArrayList;
 import java.util.List;

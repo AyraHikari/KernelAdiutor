@@ -17,9 +17,9 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.utils.root;
+package me.ayra.kerneladiutor.utils.root;
 
-import com.grarak.kerneladiutor.utils.Utils;
+import me.ayra.kerneladiutor.utils.Utils;
 
 import java.io.File;
 import java.util.ArrayList;

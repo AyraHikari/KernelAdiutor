@@ -17,14 +17,14 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.views.recyclerview;
+package me.ayra.kerneladiutor.views.recyclerview;
 
 import android.app.Activity;
 import android.content.Context;
 import android.view.View;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.views.dialog.Dialog;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.views.dialog.Dialog;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.fragments;
+package me.ayra.kerneladiutor.fragments;
 
 import android.content.pm.PackageManager;
 import android.os.Build;

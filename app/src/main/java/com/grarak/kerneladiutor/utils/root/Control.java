@@ -17,7 +17,7 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.utils.root;
+package me.ayra.kerneladiutor.utils.root;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -25,9 +25,9 @@ import android.content.Intent;
 import android.content.ServiceConnection;
 import android.os.IBinder;
 
-import com.grarak.kerneladiutor.database.Settings;
-import com.grarak.kerneladiutor.services.monitor.Monitor;
-import com.grarak.kerneladiutor.utils.Log;
+import me.ayra.kerneladiutor.database.Settings;
+import me.ayra.kerneladiutor.services.monitor.Monitor;
+import me.ayra.kerneladiutor.utils.Log;
 
 import java.util.LinkedHashMap;
 import java.util.List;

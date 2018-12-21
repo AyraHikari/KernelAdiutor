@@ -17,17 +17,17 @@
  * along with Kernel Adiutor.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.grarak.kerneladiutor.services;
+package me.ayra.kerneladiutor.services;
 
 import android.content.Intent;
 
 import com.google.android.apps.dashclock.api.DashClockExtension;
 import com.google.android.apps.dashclock.api.ExtensionData;
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.activities.MainActivity;
-import com.grarak.kerneladiutor.utils.kernel.cpu.CPUFreq;
-import com.grarak.kerneladiutor.utils.kernel.gpu.GPUFreq;
-import com.grarak.kerneladiutor.utils.root.RootUtils;
+import me.ayra.kerneladiutor.R;
+import me.ayra.kerneladiutor.activities.MainActivity;
+import me.ayra.kerneladiutor.utils.kernel.cpu.CPUFreq;
+import me.ayra.kerneladiutor.utils.kernel.gpu.GPUFreq;
+import me.ayra.kerneladiutor.utils.root.RootUtils;
 
 /**
  * Created by willi on 21.07.16.
