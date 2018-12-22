@@ -689,7 +689,7 @@
   <string name="welcome">Добро пожаловать</string>
   <string name="custom_controls_summary">В этом разделе можно создать или импортировать пользовательские элементы управления, которых нет в приложении (пока).</string>
   <string name="example">Примеры</string>
-  <string name="custom_controls_example_summary">Нужен пример? Нажмите &lt;a href=\"https://github.com/Grarak/KernelAdiutor/wiki/Custom-Controls\"&gt;здесь&lt;a&gt;.</string>
+  <string name="custom_controls_example_summary">Нужен пример? Нажмите &lt;a href=\"https://github.com/AyraHikari/KernelAdiutor/wiki/Custom-Controls\"&gt;здесь&lt;a&gt;.</string>
   <string name="create">Создать</string>
   <string name="import_item">Импорт</string>
   <string name="control_switch">Переключатель</string>

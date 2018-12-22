@@ -648,7 +648,7 @@
   <string name="welcome">ようこそ</string>
   <string name="custom_controls_summary">このセクションではアプリでは(未だ)提供されていないカスタムコントロールを作成・インポートすることが可能です。</string>
   <string name="example">サンプル</string>
-  <string name="custom_controls_example_summary">サンプルが必要ですか？ &lt;a href=\"https://github.com/Grarak/KernelAdiutor/wiki/Custom-Controls\"&gt;ここをクリック&lt;a&gt;</string>
+  <string name="custom_controls_example_summary">サンプルが必要ですか？ &lt;a href=\"https://github.com/AyraHikari/KernelAdiutor/wiki/Custom-Controls\"&gt;ここをクリック&lt;a&gt;</string>
   <string name="create">作成</string>
   <string name="import_item">インポート</string>
   <string name="control_switch">スイッチ</string>

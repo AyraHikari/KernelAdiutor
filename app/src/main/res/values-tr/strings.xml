@@ -690,7 +690,7 @@
   <string name="welcome">Hoş geldiniz</string>
   <string name="custom_controls_summary">Bu bölümde, uygulamada (henüz) olmayan özel denetimleri oluşturabilir veya içe aktarabilirsiniz.</string>
   <string name="example">Örnek</string>
-  <string name="custom_controls_example_summary">Örneğe mi ihtiyacınız var? Buraya &lt;a href=\"https://github.com/Grarak/KernelAdiutor/wiki/Custom-Controls\"&gt;tıklayın&lt;a&gt;.</string>
+  <string name="custom_controls_example_summary">Örneğe mi ihtiyacınız var? Buraya &lt;a href=\"https://github.com/AyraHikari/KernelAdiutor/wiki/Custom-Controls\"&gt;tıklayın&lt;a&gt;.</string>
   <string name="create">Oluştur</string>
   <string name="import_item">İçe aktar</string>
   <string name="control_switch">Aç/kapa</string>

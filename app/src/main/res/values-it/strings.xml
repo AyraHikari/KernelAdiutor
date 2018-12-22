@@ -660,7 +660,7 @@
   <string name="welcome">Benvenuto</string>
   <string name="custom_controls_summary">In questa sezione puoi creare o importare controlli personalizzati che non esistono nell\'app (per ora).</string>
   <string name="example">Esempi</string>
-  <string name="custom_controls_example_summary">Hai bisogno di esempi? Clicca &lt;a href=\"https://github.com/Grarak/KernelAdiutor/wiki/Custom-Controls\"&gt;here&lt;a&gt;.</string>
+  <string name="custom_controls_example_summary">Hai bisogno di esempi? Clicca &lt;a href=\"https://github.com/AyraHikari/KernelAdiutor/wiki/Custom-Controls\"&gt;here&lt;a&gt;.</string>
   <string name="create">Crea</string>
   <string name="import_item">Importa</string>
   <string name="control_switch">Interruttore</string>

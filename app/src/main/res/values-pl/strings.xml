@@ -670,7 +670,7 @@
   <string name="welcome">Witamy</string>
   <string name="custom_controls_summary">W tej sekcji możesz utworzyć lub zaimportować niestandardowe reguły, które obecnie nie istnieją w tej aplikacji (jeszcze).</string>
   <string name="example">Przykłady</string>
-  <string name="custom_controls_example_summary">Potrzebny przykład? Kliknij &lt; href = \"https://github.com/Grarak/KernelAdiutor/wiki/Custom-Controls\" &gt; tutaj &lt; &gt;.</string>
+  <string name="custom_controls_example_summary">Potrzebny przykład? Kliknij &lt; href = \"https://github.com/AyraHikari/KernelAdiutor/wiki/Custom-Controls\" &gt; tutaj &lt; &gt;.</string>
   <string name="create">Utwórz</string>
   <string name="import_item">Importuj</string>
   <string name="control_switch">Przełącznik</string>

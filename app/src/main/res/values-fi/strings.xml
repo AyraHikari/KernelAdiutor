@@ -620,7 +620,7 @@
   <string name="welcome">Tervetuloa</string>
   <string name="custom_controls_summary">Tässä osiossa voit luoda tai tuoda kustomoituja kontrolleja, jotka eivät vielä ole ohjelmassa.</string>
   <string name="example">Esimerkkejä</string>
-  <string name="custom_controls_example_summary">Esimerkki hakusessa? Klikkaa &lt;a href=\"https://github.com/Grarak/KernelAdiutor/wiki/Custom-Controls\"&gt;tästä&lt;a&gt;.</string>
+  <string name="custom_controls_example_summary">Esimerkki hakusessa? Klikkaa &lt;a href=\"https://github.com/AyraHikari/KernelAdiutor/wiki/Custom-Controls\"&gt;tästä&lt;a&gt;.</string>
   <string name="create">Luo</string>
   <string name="import_item">Tuo</string>
   <string name="control_switch">Vaihda</string>

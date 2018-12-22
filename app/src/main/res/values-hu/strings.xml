@@ -689,7 +689,7 @@
   <string name="welcome">Üdvözöllek</string>
   <string name="custom_controls_summary">Ebben a részben hozhatsz létre, vagy importálhatsz egyéni vezérlőket, amelyek nem léteznek az alkalmazásban (még).</string>
   <string name="example">Példák</string>
-  <string name="custom_controls_example_summary">Példára van szükséged? Kattints &lt;a href=\"https://github.com/Grarak/KernelAdiutor/wiki/Custom-Controls\"&gt;ide&lt;a&gt;.</string>
+  <string name="custom_controls_example_summary">Példára van szükséged? Kattints &lt;a href=\"https://github.com/AyraHikari/KernelAdiutor/wiki/Custom-Controls\"&gt;ide&lt;a&gt;.</string>
   <string name="create">Létrehozás</string>
   <string name="import_item">Importálás</string>
   <string name="control_switch">Váltás</string>

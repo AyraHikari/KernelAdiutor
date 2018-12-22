@@ -657,7 +657,7 @@
   <string name="welcome">Selamat Datang</string>
   <string name="custom_controls_summary">Di bagian ini kamu dapat membuat atau mengimpor kontrol kustom, yang belum / tidak ada di aplikasi.</string>
   <string name="example">Contoh</string>
-  <string name="custom_controls_example_summary">Perlu Contoh? Klik &lt;a href=\"https://github.com/Grarak/KernelAdiutor/wiki/Custom-Controls\"&gt;here&lt;a&gt;.</string>
+  <string name="custom_controls_example_summary">Perlu Contoh? Klik &lt;a href=\"https://github.com/AyraHikari/KernelAdiutor/wiki/Custom-Controls\"&gt;here&lt;a&gt;.</string>
   <string name="create">Buat</string>
   <string name="import_item">Impor</string>
   <string name="control_switch">Alihkan</string>

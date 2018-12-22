@@ -689,7 +689,7 @@
   <string name="welcome">Vitajte</string>
   <string name="custom_controls_summary">V tejto sekcii môžete vytvoriť alebo importovať vlastné ovládacie prvky, ktoré neexistujú v aplikácii (zatiaľ).</string>
   <string name="example">Ukážky</string>
-  <string name="custom_controls_example_summary">Potrebujete ukážku? Kliknite na &lt;a href=\"https://github.com/Grarak/KernelAdiutor/wiki/Custom-Controls\"&gt;zde&lt;a&gt;.</string>
+  <string name="custom_controls_example_summary">Potrebujete ukážku? Kliknite na &lt;a href=\"https://github.com/AyraHikari/KernelAdiutor/wiki/Custom-Controls\"&gt;zde&lt;a&gt;.</string>
   <string name="create">Vytvoriť</string>
   <string name="import_item">Importovať</string>
   <string name="control_switch">Prepínač</string>

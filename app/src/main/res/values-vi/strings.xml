@@ -573,7 +573,7 @@
   <string name="welcome">Chào mừng</string>
   <string name="custom_controls_summary">Trong phần này, bạn có thể tạo ra hoặc nhập khẩu điều khiển tùy chỉnh.</string>
   <string name="example">Ví dụ</string>
-  <string name="custom_controls_example_summary">Cần ví dụ? Nhấp vào &lt;a href = \"https://github.com/Grarak/KernelAdiutor/wiki/Custom-Controls\" &gt; &lt; một &gt; ở đây;.</string>
+  <string name="custom_controls_example_summary">Cần ví dụ? Nhấp vào &lt;a href = \"https://github.com/AyraHikari/KernelAdiutor/wiki/Custom-Controls\" &gt; &lt; một &gt; ở đây;.</string>
   <string name="create">Tạo mới</string>
   <string name="import_item">Nhập vào</string>
   <string name="control_switch">Chuyển đổi</string>

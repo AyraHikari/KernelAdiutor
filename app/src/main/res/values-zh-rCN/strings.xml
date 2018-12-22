@@ -690,7 +690,7 @@
   <string name="welcome">欢迎</string>
   <string name="custom_controls_summary">在这个功能区您可以创建或导入(目前)不存在于此应用中的自定义控制项。</string>
   <string name="example">示例</string>
-  <string name="custom_controls_example_summary">需要示例？点击 &lt;a href=\"https://github.com/Grarak/KernelAdiutor/wiki/Custom-Controls\"&gt;这里&lt;a&gt;</string>
+  <string name="custom_controls_example_summary">需要示例？点击 &lt;a href=\"https://github.com/AyraHikari/KernelAdiutor/wiki/Custom-Controls\"&gt;这里&lt;a&gt;</string>
   <string name="create">创建</string>
   <string name="import_item">导入</string>
   <string name="control_switch">切换</string>

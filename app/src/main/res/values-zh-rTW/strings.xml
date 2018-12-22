@@ -675,7 +675,7 @@
   <string name="welcome">歡迎</string>
   <string name="custom_controls_summary">在本節中，你可以創建或導入 （尚） 的應用程式中不存在的自訂控制項。</string>
   <string name="example">例子</string>
-  <string name="custom_controls_example_summary">需要的例子？href =“Https://github.com/Grarak/KernelAdiutor/wiki/Custom-Controls”＆gt; ＆lt; ＆gt; 這裡。</string>
+  <string name="custom_controls_example_summary">需要的例子？href =“Https://github.com/AyraHikari/KernelAdiutor/wiki/Custom-Controls”＆gt; ＆lt; ＆gt; 這裡。</string>
   <string name="create">新增</string>
   <string name="import_item">匯入</string>
   <string name="control_switch">開關</string>

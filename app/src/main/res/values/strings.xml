@@ -727,7 +727,7 @@
     <string name="welcome">Welcome</string>
     <string name="custom_controls_summary">In this section you can create or import custom controls, which don\'t exist in the app (yet).</string>
     <string name="example">Examples</string>
-    <string name="custom_controls_example_summary">Need example? Click &lt;a href="https://github.com/Grarak/KernelAdiutor/wiki/Custom-Controls">here&lt;a>.</string>
+    <string name="custom_controls_example_summary">Need example? Click &lt;a href="https://github.com/AyraHikari/KernelAdiutor/wiki/Custom-Controls">here&lt;a>.</string>
     <string name="create">Create</string>
     <string name="import_item">Import</string>
     <string name="control_switch">Switch</string>

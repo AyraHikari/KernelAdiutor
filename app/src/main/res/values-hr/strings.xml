@@ -449,7 +449,7 @@
   <string name="welcome">Dobro došli</string>
   <string name="custom_controls_summary">U ovom odjeljku možete stvoriti ili uvesti prilagođene kontrole koje (još) ne postoje u aplikaciji.</string>
   <string name="example">Primjeri</string>
-  <string name="custom_controls_example_summary">Trebate primjer? Dodirnite &lt;a href=\"https://github.com/Grarak/KernelAdiutor/wiki/Custom-Controls\"&gt;ovdje&lt;a&gt;.</string>
+  <string name="custom_controls_example_summary">Trebate primjer? Dodirnite &lt;a href=\"https://github.com/AyraHikari/KernelAdiutor/wiki/Custom-Controls\"&gt;ovdje&lt;a&gt;.</string>
   <string name="create">Stvori</string>
   <string name="import_item">Uvezi</string>
   <string name="edit">Promjeni</string>

@@ -680,7 +680,7 @@ kann etwas Akku sparen. </string>
   <string name="welcome">Willkommen</string>
   <string name="custom_controls_summary">In diesem Abschnitt können Sie benutzerdefinierte Steuerelemente erstellen oder importieren welche es in der App (noch) nicht gibt.</string>
   <string name="example">Beispiele</string>
-  <string name="custom_controls_example_summary">Beispiel benötigt? Klicke &lt;a href=\"https://github.com/Grarak/KernelAdiutor/wiki/Custom-Controls\"&gt;hier&lt;a&gt;.</string>
+  <string name="custom_controls_example_summary">Beispiel benötigt? Klicke &lt;a href=\"https://github.com/AyraHikari/KernelAdiutor/wiki/Custom-Controls\"&gt;hier&lt;a&gt;.</string>
   <string name="create">Erstellen</string>
   <string name="import_item">Importien</string>
   <string name="control_switch">Umschalten</string>
