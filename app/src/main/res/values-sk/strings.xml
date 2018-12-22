@@ -846,7 +846,7 @@
   <string name="fingerprint_summary">Pre bezpečnostnú kontrolu použiť odtlačok prsta. Funkcia bude aktivovaná len keď nastavíte odtlačok prsta.</string>
   <string name="sections">Sekcie</string>
   <!-- About -->
-  <string name="about_me">Ahoj, volám sa Willi Ye aka Grarak, som 19 ročný student žijúci vo Viedni. Vyvíjam pre Android už pomerne dlho. Okrem Kernel Adiutoru tiež spravujem LineageOS pre niekoľko zariadení a pracujem na Paranoid Androide. Tak pochopte prosím, ak nebudem mať dostatok času pre časté aktualizácie tejto aplikácie.</string>
+  <string name="about_me">Ahoj, toto je ďalšia vidlica Kernel Adiutor od Willi Ye aka Grarak. Robím to len pre aplikáciu Yuka Kernel inbuild, ale môžete ju nainštalovať na iné jadro. Jednoducho meniť názov balíka na zabránenie výmeny aplikácie Kernel Adiutor a nejakého upraveného súboru. Ďakujem za pochopenie.</string>
   <!-- Contributors -->
   <string name="commits">Zmeny: %d</string>
   <string name="no_internet">Skontrolujte internetové pripojenie!</string>

@@ -817,7 +817,7 @@
   <string name="fingerprint_summary">Use a impressão digital para passar a verificação de segurança. Isto funcionará enquanto você tiver impressões digitais registadas.</string>
   <string name="sections">Seções</string>
   <!-- About -->
-  <string name="about_me">Oi, eu sou Willi Ye aka Grarak, uma estudante de 19 anos vivendo em Viena. Tenho desenvolvido para Android há bastante tempo. Ao lado do Kernel Adiutor, também mantenho o LineageOS para alguns dispositivos e trabalhando no ParanoidAndroid. Então por favor, entenda se eu não encontrar tempo para atualizar este aplicativo.</string>
+  <string name="about_me">Oi, Este é outro fork do Kernel Adiutor por Willi Ye, também conhecido como Grarak. Eu só faço isso para o aplicativo inbuild do Kernel Yuka, mas você pode instalar isso em outro kernel. Eu apenas altero o nome do pacote para evitar a substituição do aplicativo Kernel Adiutor e de algum arquivo modificado. Obrigado pela sua compreensão.</string>
   <!-- Contributors -->
   <string name="commits">%d commits</string>
   <string name="no_internet">Por favor, cheque sua conexão de internet!</string>

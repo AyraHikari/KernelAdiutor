@@ -827,7 +827,7 @@
   <string name="fingerprint_summary">Skorzystaj z twojego odciska palców by móc korzystać z aplikacji. Opcja ta działa, dopóki twój odcisk palca został zarejestrowany na twoim urządzeniu.</string>
   <string name="sections">Działy</string>
   <!-- About -->
-  <string name="about_me">Witaj, jestem Willi Ye aka Grarak, jestem 19-letnim studentem z Wiednia. Zajmuję się programowaniem Androida od dłuższego czasu. Poza Kernel Adiutorem utrzymuję również LineageOS dla kilku urządzeń oraz pracuję nad ParanoidAndroid. Więc zrozum, proszę, że nie mogę znaleźć zbyt wiele czasu na aktualizacje tej aplikacji.</string>
+  <string name="about_me">Cześć, to kolejny rozwidlenie Kernel Adiutor Willi Ye aka Grarak. Po prostu robię to dla aplikacji inbuildowej Yuka Kernela, ale możesz zainstalować to na innym jądrze. Po prostu zmieniam nazwę pakietu, aby zapobiec zastąpieniu aplikacji Kernel Adiutor i niektórych zmodyfikowanych plików. Dziękuję za zrozumienie.</string>
   <!-- Contributors -->
   <string name="commits">%d commit\'a/ów</string>
   <string name="no_internet">Sprawdź swoje połączenie internetowe!</string>
