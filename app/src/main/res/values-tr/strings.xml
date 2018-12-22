@@ -847,7 +847,7 @@
   <string name="fingerprint_summary">Güvenlik kontrolünü geçmek için parmak izi kullanın. Bu parmak izleriniz kayıtlı olduğu sürece işe yarayacaktır.</string>
   <string name="sections">Bölümler</string>
   <!-- About -->
-  <string name="about_me">Merhaba, Bu Willi Ye aka Grarak'ın bir diğer çekirdek ajanı çatalı. Bunu sadece Yuka Kernel inbuild uygulaması için yapıyorum, ancak bunu diğer çekirdeğe de yükleyebilirsiniz. Ben sadece Çekirdek Adiutor uygulamasını ve bazı değiştirilmiş dosyayı değiştirmesini önlemek için paket adını değiştiriyorum. Anlayışınız için teşekkür ederim.</string>
+  <string name="about_me">Merhaba, Bu Willi Ye aka Grarak\'ın bir diğer çekirdek ajanı çatalı. Bunu sadece Yuka Kernel inbuild uygulaması için yapıyorum, ancak bunu diğer çekirdeğe de yükleyebilirsiniz. Ben sadece Çekirdek Adiutor uygulamasını ve bazı değiştirilmiş dosyayı değiştirmesini önlemek için paket adını değiştiriyorum. Anlayışınız için teşekkür ederim.</string>
   <!-- Contributors -->
   <string name="commits">%d işlendi</string>
   <string name="no_internet">Lütfen internet bağlantınızı kontrol edin!</string>
