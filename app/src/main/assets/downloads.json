@@ -16,7 +16,7 @@
       "htc_a5dwg",
       "htc_a5dug"
     ],
-    "link": "https://raw.githubusercontent.com/Grarak/KernelAdiutor/master/download/desire816.json"
+    "link": "https://raw.githubusercontent.com/AyraHikari/KernelAdiutor/master/download/desire816.json"
   },
   {
     "vendor": [
@@ -25,7 +25,7 @@
     "device": [
       "GT-I9103"
     ],
-    "link": "https://raw.githubusercontent.com/Grarak/KernelAdiutor/master/download/galaxyr.json"
+    "link": "https://raw.githubusercontent.com/AyraHikari/KernelAdiutor/master/download/galaxyr.json"
   },
   {
     "vendor": [
@@ -35,7 +35,7 @@
       "A0001",
       "bacon"
     ],
-    "link": "https://raw.githubusercontent.com/Grarak/KernelAdiutor/master/download/oneplusone.json"
+    "link": "https://raw.githubusercontent.com/AyraHikari/KernelAdiutor/master/download/oneplusone.json"
   },
   {
     "vendor": [
@@ -56,7 +56,7 @@
       "sprout",
       "sprout_b"
     ],
-    "link": "https://raw.githubusercontent.com/Grarak/KernelAdiutor/master/download/sprout.json"
+    "link": "https://raw.githubusercontent.com/AyraHikari/KernelAdiutor/master/download/sprout.json"
   },
   {
     "vendor": [
@@ -71,7 +71,7 @@
       "ls990",
       "vs985"
     ],
-    "link": "https://raw.githubusercontent.com/Grarak/KernelAdiutor/master/download/g3.json"
+    "link": "https://raw.githubusercontent.com/AyraHikari/KernelAdiutor/master/download/g3.json"
   },
   {
     "vendor": [
@@ -81,7 +81,7 @@
       "SM-G900T",
       "kltetmo"
     ],
-    "link": "https://raw.githubusercontent.com/Grarak/KernelAdiutor/master/download/sm-g900t.json"
+    "link": "https://raw.githubusercontent.com/AyraHikari/KernelAdiutor/master/download/sm-g900t.json"
   },
   {
     "vendor": [
@@ -90,7 +90,7 @@
     "device": [
       "huashan"
     ],
-    "link": "https://raw.githubusercontent.com/Grarak/KernelAdiutor/master/download/xperiasp.json"
+    "link": "https://raw.githubusercontent.com/AyraHikari/KernelAdiutor/master/download/xperiasp.json"
   },
   {
     "vendor": [
@@ -100,7 +100,7 @@
       "SM-G900F",
       "klte"
     ],
-    "link": "https://raw.githubusercontent.com/Grarak/KernelAdiutor/master/download/galaxys5.json"
+    "link": "https://raw.githubusercontent.com/AyraHikari/KernelAdiutor/master/download/galaxys5.json"
   },
   {
     "vendor": [
@@ -111,7 +111,7 @@
     "device": [
       "jagnm"
     ],
-    "link": "https://raw.githubusercontent.com/Grarak/KernelAdiutor/master/download/g3beat_jagnm.json"
+    "link": "https://raw.githubusercontent.com/AyraHikari/KernelAdiutor/master/download/g3beat_jagnm.json"
   },
   {
     "vendor": [
@@ -122,7 +122,7 @@
     "device": [
       "jag3gds"
     ],
-    "link": "https://raw.githubusercontent.com/Grarak/KernelAdiutor/master/download/g3beat_jag3gds.json"
+    "link": "https://raw.githubusercontent.com/AyraHikari/KernelAdiutor/master/download/g3beat_jag3gds.json"
   },
   {
     "vendor": [
@@ -131,7 +131,7 @@
     "device": [
       "Condor"
     ],
-    "link": "https://raw.githubusercontent.com/Grarak/KernelAdiutor/master/download/condor.json"
+    "link": "https://raw.githubusercontent.com/AyraHikari/KernelAdiutor/master/download/condor.json"
   },
   {
     "vendor": [
@@ -151,7 +151,7 @@
       "xt1254",
       "XT1254"
     ],
-    "link": "https://raw.githubusercontent.com/Grarak/KernelAdiutor/master/download/quark.json"
+    "link": "https://raw.githubusercontent.com/AyraHikari/KernelAdiutor/master/download/quark.json"
   },
   {
     "vendor": [
@@ -192,7 +192,7 @@
     "device": [
       "YUREKA"
     ],
-    "link": "https://raw.githubusercontent.com/Grarak/KernelAdiutor/master/download/tomato.json"
+    "link": "https://raw.githubusercontent.com/AyraHikari/KernelAdiutor/master/download/tomato.json"
   },
   {
     "vendor": [
@@ -201,7 +201,7 @@
     "device": [
       "YUPHORIA"
     ],
-    "link": "https://raw.githubusercontent.com/Grarak/KernelAdiutor/master/download/lettuce.json"
+    "link": "https://raw.githubusercontent.com/AyraHikari/KernelAdiutor/master/download/lettuce.json"
   },
   {
     "vendor": [
@@ -210,7 +210,7 @@
     "device": [
       "YUNIQUE"
     ],
-    "link": "https://raw.githubusercontent.com/Grarak/KernelAdiutor/master/download/jalebi.json"
+    "link": "https://raw.githubusercontent.com/AyraHikari/KernelAdiutor/master/download/jalebi.json"
   },
   {
     "vendor": [
@@ -234,7 +234,7 @@
       "HM2014820",
       "HM2014821"
     ],
-    "link": "https://raw.githubusercontent.com/Grarak/KernelAdiutor/master/download/wingtech.json"
+    "link": "https://raw.githubusercontent.com/AyraHikari/KernelAdiutor/master/download/wingtech.json"
   },
   {
     "vendor": [
@@ -248,7 +248,7 @@
     "device": [
       "land"
     ],
-    "link": "https://raw.githubusercontent.com/AyraHikari/Yuka_Kernel-Adiutor/master/yuka.json"
+    "link": "https://raw.githubusercontent.com/AyraHikari/KernelAdiutor/master/download/land.json"
   },
   {
     "vendor": [
@@ -257,7 +257,7 @@
     "device": [
       "Angler"
     ],
-    "link": "https://raw.githubusercontent.com/Grarak/KernelAdiutor/master/download/angler.json"
+    "link": "https://raw.githubusercontent.com/AyraHikari/KernelAdiutor/master/download/angler.json"
   },
   {
     "vendor": [
@@ -267,7 +267,7 @@
       "heroltexx",
       "hero2ltexx"
     ],
-    "link": "https://raw.githubusercontent.com/Grarak/KernelAdiutor/master/download/galaxys7.json"
+    "link": "https://raw.githubusercontent.com/AyraHikari/KernelAdiutor/master/download/galaxys7.json"
   },
   { 
     "vendor": [
@@ -283,7 +283,7 @@
       "D2004",
       "D2005"
     ],
-    "link": "https://raw.githubusercontent.com/Grarak/KernelAdiutor/master/download/nicki.json"
+    "link": "https://raw.githubusercontent.com/AyraHikari/KernelAdiutor/master/download/nicki.json"
   },
   { 
     "vendor": [
@@ -298,7 +298,7 @@
       "le_ww_s2",
       "le_s2_ww"
     ],
-    "link": "https://raw.githubusercontent.com/Grarak/KernelAdiutor/master/download/s2.json"
+    "link": "https://raw.githubusercontent.com/AyraHikari/KernelAdiutor/master/download/s2.json"
   },
   { 
     "vendor": [
@@ -315,7 +315,7 @@
       "x509",
       "X509"
     ],
-    "link": "https://raw.githubusercontent.com/Grarak/KernelAdiutor/master/download/x3.json"
+    "link": "https://raw.githubusercontent.com/AyraHikari/KernelAdiutor/master/download/x3.json"
   }
 ]
 
