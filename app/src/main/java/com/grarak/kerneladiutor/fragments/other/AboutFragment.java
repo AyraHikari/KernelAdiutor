@@ -110,7 +110,7 @@ public class AboutFragment extends RecyclerViewFragment {
         support.setOnItemClickListener(new RecyclerViewItem.OnItemClickListener() {
             @Override
             public void onClick(RecyclerViewItem item) {
-                Utils.launchUrl("https://forum.xda-developers.com/android/apps-games/app-smartpack-kernel-manager-t3854717", getActivity());
+                Utils.launchUrl("https://t.me/joinchat/Fykz0Uz2iSIXb8E62yRApw", getActivity());
             }
         });
 
@@ -120,7 +120,7 @@ public class AboutFragment extends RecyclerViewFragment {
         sourcecode.setOnItemClickListener(new RecyclerViewItem.OnItemClickListener() {
             @Override
             public void onClick(RecyclerViewItem item) {
-                Utils.launchUrl("https://github.com/SmartPack/SmartPack-Kernel-Manager", requireActivity());
+                Utils.launchUrl("https://github.com/AyraHikari/KernelAdiutor", requireActivity());
             }
         });
 
@@ -130,7 +130,7 @@ public class AboutFragment extends RecyclerViewFragment {
         changelogs.setOnItemClickListener(new RecyclerViewItem.OnItemClickListener() {
             @Override
             public void onClick(RecyclerViewItem item) {
-                Utils.launchUrl("https://raw.githubusercontent.com/SmartPack/SmartPack-Kernel-Manager/master/change-logs.md", getActivity());
+                Utils.launchUrl("https://raw.githubusercontent.com/AyraHikari/KernelAdiutor/smartpack/change-logs.md", getActivity());
             }
         });
 
@@ -140,7 +140,7 @@ public class AboutFragment extends RecyclerViewFragment {
         donatetome.setOnItemClickListener(new RecyclerViewItem.OnItemClickListener() {
             @Override
             public void onClick(RecyclerViewItem item) {
-                Utils.launchUrl("https://www.paypal.me/sunilpaulmathew", getActivity());
+                Utils.launchUrl("https://www.paypal.me/AyraHikari", getActivity());
             }
         });
 
@@ -205,7 +205,7 @@ public class AboutFragment extends RecyclerViewFragment {
             rootView.findViewById(R.id.image).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Utils.launchUrl("https://github.com/sunilpaulmathew", getActivity());
+                    Utils.launchUrl("https://github.com/AyraHikari", getActivity());
                 }
             });
             return rootView;
