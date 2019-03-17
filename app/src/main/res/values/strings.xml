@@ -1035,14 +1035,14 @@
     <string name="sections">Sections</string>
 
     <!-- About -->
-    <string name="about_me" translatable="false">SmartPack-Kernel Manager is a modified version of official Kernel Adiutor, which is originally developed by Willi Ye aka Grarak. All the credits goes to the original developer.\n\nIf you like SmartPack-Kernel, please consider to donate to me as it is helpful to continue this project more active, though it is not at all necessary.</string>
+    <string name="about_me" translatable="false">Yuka Settings is a modified version of official Kernel Adiutor, which is originally developed by Willi Ye aka Grarak. All the credits goes to the original developer.\n\nIf you like SmartPack-Kernel, please consider to donate to Grarak as it is helpful to continue this project more active, though it is not at all necessary.</string>
     <string name="libraries_used">Libraries used</string>
     <string name="source_code">Source Code</string>
     <string name="source_code_summary">View source code at GitHub</string>
     <string name="change_logs">Change-logs</string>
     <string name="change_logs_summary">View Change-logs</string>
     <string name="donate_me">Donate to Me</string>
-    <string name="donate_me_summary">Want to appreciate my work with a Donation? Click here</string>
+    <string name="donate_me_summary">This is will link to my paypal. Please donate to sunilpaulmathew instead</string>
 
     <!-- Contributors -->
     <string name="commits">%d commits</string>
