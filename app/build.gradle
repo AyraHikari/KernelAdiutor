@@ -12,25 +12,14 @@ apply plugin: 'com.android.application'
 apply plugin: 'io.fabric'
 
 android {
-
-    signingConfigs {
-        release {
-            storeFile file("sp.jks")
-            storePassword "yukasettings"
-            keyAlias "yuka_key"
-            keyPassword "yukasettings"
-        }
-    }
-
     compileSdkVersion 28
     buildToolsVersion '28.0.3'
-
     defaultConfig {
         applicationId "me.ayra.kernelmanager"
         minSdkVersion 15
         targetSdkVersion 28
-        versionCode 7
-        versionName "7.5-" + getDate()
+        versionCode 1
+        versionName "1.0-" + getDate()
         vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         archivesBaseName = "$applicationId-v$versionName"
