@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <string name="app_name" translatable="false">SmartPack-Kernel Manager</string>
+    <string name="app_name">Yuka Kernel Settings</string>
 
     <string name="checking_info">Checking info…</string>
     <string name="checking_root">Checking root access</string>
@@ -20,22 +20,17 @@
     <string name="press_back_again_exit">Press back again to exit</string>
     <string name="cancel">Cancel</string>
     <string name="ok">OK</string>
-    <string name="exit">Exit</string>
-    <string name="yes">YES</string>
     <string name="unknown">Unknown</string>
-    <string name="used">Used</string>
-    <string name="free">Free</string>
-    <string name="total">Total</string>
 
     <string name="license_invalid">Thanks for purchasing the donation app! Unfortunately license check failed. Please try again later. If it\'s still not working, please contact me. You need internet access!</string>
     <string name="pirated">Seems like the donation app wasn\'t purchased through Play Store! If you pirated it, then shame on you!</string>
-    <string name="donate">Donate to Grarak</string>
-    <string name="donate_summary">This feature is only available in the donation version of official Kernel Adiutor (not this modified SmartPack-Kernel Manager)!\n*Please Note* If you bought the donation app, you probably need to switch to the official Kernel Adiutor to get the benefits.</string>
-    <string name="donate_nope">Not now!</string>
-    <string name="donate_yes">Donate!</string>
+    <string name="donate">Donate</string>
+    <string name="donate_summary">This feature is only available when the donation app is installed! Don\'t worry though. Because this app is open source you can easily build it yourself and remove this check. But I hope you support developers anyway. Thanks for using Kernel Adiutor! Once you bought the donation app you have to restart Kernel Adiutor in order to enable all features.</string>
+    <string name="donate_nope">I won\'t fall for this scam!</string>
+    <string name="donate_yes">I love this app. Must donate!</string>
     <string name="ad_here">Your advertisement could be here</string>
     <string name="remove_ad">Remove ad</string>
-    <string name="warning">Warning!</string>
+    <string name="warning">Warning</string>
     <string name="gh_ad">This is a non commercial ad! Do not take this seriously! Just a funny way to fill the space when an actual ad doesn\'t load (looking at you adblock users).</string>
     <string name="open_ad_anyway">Open ad anyway</string>
 
@@ -77,8 +72,7 @@
 
     <!-- Headers -->
     <string name="statistics">Statistics</string>
-    <string name="kernel" translatable="false">Kernel</string>
-    <string name="smartpack_kernel" translatable="false">SmartPack-Kernel</string>
+    <string name="kernel">Kernel</string>
     <string name="tools">Tools</string>
     <string name="other">Other</string>
 
@@ -88,33 +82,34 @@
     <string name="memory">Memory</string>
     <string name="inputs">Inputs</string>
     <string name="cpu">CPU</string>
-    <string name="cpu_hotplug">CPU Hotplug</string>
     <string name="cpu_voltage">CPU Voltage</string>
-    <string name="gpu">GPU</string>
+    <string name="cpu_hotplug">CPU Hotplug</string>
     <string name="thermal">Thermal</string>
-    <string name="battery">Battery</string>
-    <string name="sound">Sound</string>
+    <string name="gpu">GPU</string>
     <string name="screen">Screen</string>
-    <string name="wake">Wake Gestures</string>
-    <string name="led">Display and LED</string>
+    <string name="wake">Wake</string>
+    <string name="sound">Sound</string>
+    <string name="battery">Battery</string>
+    <string name="led">LED</string>
     <string name="io_scheduler">I/O Scheduler</string>
     <string name="ksm">Kernel Samepage Merging</string>
     <string name="lmk">Low Memory Killer</string>
     <string name="virtual_memory">Virtual Memory</string>
     <string name="entropy">Entropy</string>
     <string name="misc">Misc</string>
+    <string name="data_sharing">Data Sharing</string>
     <string name="custom_controls">Custom Controls</string>
+    <string name="downloads">Downloads</string>
     <string name="backup">Backup</string>
     <string name="build_prop_editor">Build prop Editor</string>
     <string name="profile">Profile</string>
+    <string name="recovery">Recovery</string>
     <string name="initd">Init.d</string>
     <string name="on_boot">On Boot</string>
     <string name="settings">Settings</string>
-    <string name="smartpack">SmartPack</string>
     <string name="about">About</string>
     <string name="contributors">Contributors</string>
-    <string name="kernelupdate">Kernel Updates</string>
-    <string name="help" translatable="false">FAQ</string>
+    <string name="help">Help</string>
 
     <!-- Overall -->
     <string name="offline">Offline</string>
@@ -146,7 +141,6 @@
     <string name="trustzone" translatable="false">TrustZone</string>
     <string name="hardware">Hardware</string>
     <string name="architecture">Architecture</string>
-    <string name="treble_status">Project Treble Support</string>
 
     <!-- Inputs -->
     <string name="bus">Bus</string>
@@ -206,19 +200,11 @@
     <string name="hotplug_boost_summary">Hotplug Boost is similar to input boost but it occurs when CPUs go online.</string>
     <string name="touch_boost">Touch Boost</string>
     <string name="touch_boost_summary">This will boost your minimum CPU speed if you touch the screen or press a button.</string>
-    <string name="msm_limiter">MSM Limiter</string>
-    <string name="msm_limiter_summary">Enable MSM Limiter by neobuddy89.</string>
-    <string name="freq_control">Frequency Control</string>
-    <string name="freq_control_summary">Allow MSM Limiter to Control the Frequencies of your CPUs.</string>
-    <string name="dyn_stune_boost">Dynamic Stune Boost</string>
-    <string name="stune_boost_ms">Stune Boost Duration</string>
-    <string name="adv_sett">Advanced Settings</string>
 
-    <!-- CPU Input Boost -->
-    <string name="cpu_input_boost">CPU Input Boost</string>
-    <string name="cpu_input_boost_summary">Enable CPU Input Boost developed by Sultanxda.</string>
-    <string name="cpuiboost_duration">Input Boost Duration</string>
-    <string name="cpuiboost_duration_summary">Set CPU Input Boost duration</string>
+    <!-- CPU Voltage -->
+    <string name="global_offset">Global Offset</string>
+    <string name="override_vmin">Override Minimum Voltage</string>
+    <string name="override_vmin_summary">Disable to remove manufacturer limits on undervolting</string>
 
     <!-- CPU Hotplug -->
     <string name="hotplug_warning">More than one hotplugging system is enabled!\nPlease only use one.</string>
@@ -275,6 +261,20 @@
     <string name="up_timer_cnt_summary">Control timer for up CPUs.</string>
     <string name="down_timer_cnt">Down Timer Control</string>
     <string name="down_timer_cnt_summary">Control timer for down CPUs.</string>
+    <string name="msm_hotplug">MSM Hotplug</string>
+    <string name="msm_hotplug_summary">An in-kernel replacement for Qualcomm\'s MPDecision. Developed by myfluxi.</string>
+    <string name="history_size">History Size</string>
+    <string name="history_size_summary">Number of samples taken in consideration for average load across CPUs. Lower means quicker/more erratic.</string>
+    <string name="update_rate">Update Rate</string>
+    <string name="update_rate_summary">Interval between taking samples of load across CPUs. Lower means quicker/more erratic.</string>
+    <string name="fast_lane_load">Fast Lane Load</string>
+    <string name="fast_lane_load_summary">Improve latencies by instantly putting online all CPUs if current load on any CPU is above a certain threshold.</string>
+    <string name="fast_lane_min_freq">Fast Lane Min Frequency</string>
+    <string name="fast_lane_min_freq_summary">Sets the minimum frequency the CPU scales down to when fast lane reaches the above load.</string>
+    <string name="offline_load">Offline Load</string>
+    <string name="offline_load_summary">Don\'t offline a CPU if it drops under the lower levels up threshold load.</string>
+    <string name="io_is_busy">IO is Busy</string>
+    <string name="io_is_busy_summary">Used to make the hotplug consider the I/O time as CPU load time.</string>
     <string name="mako_hotplug">Mako Hotplug</string>
     <string name="mako_hotplug_summary">An in-kernel replacement for Qualcomm\'s MPDecision. Developed by franciscofranco.</string>
     <string name="cpus_on_touch">CPUs on touch</string>
@@ -288,31 +288,49 @@
     <string name="max_load_counter">Max Load Counter</string>
     <string name="min_time_cpu_online">Min Time CPU Online</string>
     <string name="timer">Timer</string>
+    <string name="msm_mpdecision_hotplug">MSM MPDecision Hotplug</string>
+    <string name="bricked_hotplug">Bricked Hotplug</string>
+    <string name="mb_hotplug_summary">An in-kernel replacement for Qualcomm\'s MPDecision. Developed by show-p1984.</string>
     <string name="screen_off_single_cpu">Screen off Single CPU</string>
     <string name="screen_off_single_cpu_summary">Use only one CPU when screen is off.</string>
+    <string name="idle_frequency">Idle Frequency</string>
+    <string name="idle_frequency_summary">If the first core is below this frequency, then don\'t plug the other cores.</string>
+    <string name="touch_boost_time">Touch Boost Time</string>
+    <string name="touch_boost_time_summary">How long the CPU should be boosted after touching the screen.</string>
+    <string name="boost_frequency_core">Boost Frequency Core %d</string>
+    <string name="start_delay">Start delay</string>
+    <string name="start_delay_summary">Time until Hotplug starts to work.</string>
     <string name="delay">Delay</string>
     <string name="delay_summary">Time between checks.</string>
-    <string name="msm_hotplug">MSM Hotplug</string>
-    <string name="msm_hotplug_summary">An in-kernel replacement for Qualcomm\'s MPDecision. Developed by myfluxi.</string>
-    <string name="history_size">History Size</string>
-    <string name="history_size_summary">Number of samples taken in consideration for average load across CPUs. Lower means quicker/more erratic.</string>
-    <string name="update_rate">Update Rate</string>
-    <string name="update_rate_summary">Interval between taking samples of load across CPUs. Lower means quicker/more erratic.</string>
-    <string name="fast_lane_load">Fast Lane Load</string>
-    <string name="fast_lane_load_summary">Improve latencies by instantly putting online all CPUs if current load on any CPU is above a certain threshold.</string>
-    <string name="fast_lane_min_freq">Fast Lane Min Frequency</string>
-    <string name="fast_lane_min_freq_summary">Sets the minimum frequency the CPU scales down to when fast lane reaches the above load.</string>
-    <string name="offline_load">Offline Load</string>
-    <string name="offline_load_summary">Don\'t offline a CPU if it drops under the lower levels up threshold load.</string>
+    <string name="pause">Pause</string>
+    <string name="pause_summary">If something else plugs in the CPU, fall asleep for this amount of time.</string>
     <string name="alucard_hotplug">Alucard Hotplug</string>
     <string name="alucard_hotplug_summary">An in-kernel replacement for Qualcomm\'s MPDecision. Developed by Alucard.</string>
     <string name="sampling_rate">Sampling Rate</string>
     <string name="cpu_down_rate">CPU Down Rate</string>
     <string name="cpu_up_rate">CPU Up Rate</string>
-    <string name="io_is_busy">IO is Busy</string>
-    <string name="io_is_busy_summary">Used to make the hotplug consider the I/O time as CPU load time.</string>
+    <string name="thunderplug">ThunderPlug</string>
+    <string name="thunderplug_summary">An in-kernel replacement for Qualcomm\'s hotplugging. Developed by varunchitre15.</string>
+    <string name="min_cpu_online_screen_off">Minimum CPU Screen Off</string>
+    <string name="min_cpu_online_screen_off_summary">Minimum number of CPUs that will be online when the screen is off.</string>
+    <string name="endurance_level">Endurance Level</string>
+    <string name="endurance_level_summary">A power saving profile.</string>
     <string name="quad_core_mode">Quad-Core mode</string>
     <string name="dual_core_mode">Dual-Core mode</string>
+    <string name="zen_decision">Zen Decision</string>
+    <string name="zen_decision_summary">An in-kernel replacement for Qualcomm\'s MPDecision. Developed by bbedward.</string>
+    <string name="wake_wait_time">Wake Wait Time</string>
+    <string name="wake_wait_time_summary">How long to wait before turning on any CPUs.</string>
+    <string name="bat_threshold_ignore">Battery Threshold Ignore</string>
+    <string name="bat_threshold_ignore_summary">Don\'t turn on any cores when charge is below the selected capacity.</string>
+    <string name="autosmp">AutoSMP</string>
+    <string name="autosmp_summary">An in-kernel replacement for Qualcomm\'s MPDecision. Developed by mrg666.</string>
+    <string name="downrate_limits">Downrate Limits</string>
+    <string name="uprate_limits">Uprate Limits</string>
+    <string name="cycle_down">Cycle Down</string>
+    <string name="cycle_down_summary">Cycles to wait after the last hotplug event to unplug another core.</string>
+    <string name="cycle_up">Cycle Up</string>
+    <string name="cycle_up_summary">Cycles to wait after the last hotplug event to plug another core.</string>
     <string name="core_control">Core Control</string>
     <string name="core_control_summary">Qualcomm\'s hotplugging solution. Sorry you can\'t turn it off. #blameqcom</string>
     <string name="hcube">H-Cube</string>
@@ -323,53 +341,16 @@
     <string name="busy_down_threshold_summary">Threshold when big CPUs should be turned off.</string>
     <string name="busy_up_threshold">Busy Up Threshold</string>
     <string name="busy_up_threshold_summary">Threshold when big CPUs should be turned on.</string>
-    <string name="task_threshold">Task Threshold</string>
-    <string name="task_threshold_summary">Threshold when balancing tasks into big CPU units.</string>
     <string name="offline_delay">Offline Delay</string>
     <string name="offline_delay_summary">Time before turning off a CPU.</string>
     <string name="online_delay">Online Delay</string>
     <string name="online_delay_summary">Time before turning on a CPU.</string>
-    <string name="msm_sleeper">MSM Sleeper</string>
-    <string name="msm_sleeper_summary">An in-kernel replacement for Qualcomm\'s MPDecision. Developed by flar2.</string>
-    <string name="max_down_count">Offline Core Threshold</string>
-    <string name="max_up_count">Online Core Threshold</string>
-    <string name="suspend_max_online">Max Online Cores during suspend</string>
-
-    <!-- CPU Voltage -->
-    <string name="global_offset">Global Offset</string>
-    <string name="override_vmin">Override Minimum Voltage</string>
-    <string name="override_vmin_summary">Disable to remove manufacturer limits on undervolting</string>
-
-    <!-- GPU -->
-    <string name="frequencies">Frequencies</string>
-    <string name="gpu_2d_freq">GPU 2D Frequency</string>
-    <string name="gpu_2d_max_freq">GPU 2D Maximum Frequency</string>
-    <string name="gpu_2d_max_freq_summary">Set the maximum 2D frequency the GPU scales up to.</string>
-    <string name="gpu_max_freq">GPU Maximum Frequency</string>
-    <string name="gpu_max_freq_summary">Set the maximum frequency the GPU scales up to.</string>
-    <string name="gpu_min_freq">GPU Minimum Frequency</string>
-    <string name="gpu_min_freq_summary">Set the minimum frequency the GPU scales down to.</string>
-    <string name="gpu_2d_governor">GPU 2D Governor</string>
-    <string name="gpu_2d_governor_summary">Set the 2D governor of the GPU.</string>
-    <string name="gpu_governor">GPU Governor</string>
-    <string name="gpu_governor_summary">Set the governor of the GPU.</string>
-    <string name="gpu_governor_tunables">GPU Governor Tunables</string>
-    <string name="simple_gpu_algorithm">Simple GPU Algorithm</string>
-    <string name="simple_gpu_algorithm_summary">An add-on for MSM Adreno TZ GPU Governor. Developed by faux123.</string>
-    <string name="adrenoboost">AdrenoBoost</string>
-    <string name="adrenoboost_summary">An add-on for MSM Adreno TZ GPU Governor. Developed by flar2</string>
-    <string name="laziness">Laziness</string>
-    <string name="laziness_summary">This increases the threshold to ramp up or down GPU frequencies. The lower it is, the more performance you get.</string>
-    <string name="ramp_thresold">Ramp Thresold</string>
-    <string name="ramp_thresold_summary">This increases the number of times the GPU governor ramp down requests. The higher it is, the more performance you get.</string>
-    <string name="adreno_idler">Adreno Idler</string>
-    <string name="adreno_idler_summary">An efficient workaround for msm-adreno-tz\'s overheads. Developed by arter97.</string>
-    <string name="down_differential">Down Differential</string>
-    <string name="down_differential_summary">Threshold for determining if the given workload is idle.</string>
-    <string name="idle_wait">Idle Wait</string>
-    <string name="idle_wait_summary">Number of events to wait before ramping down the frequency. The idlewait\'th events before current one must be all idle before Adreno idler ramps down the frequency. This implementation is to prevent micro-lags on scrolling or playing games. Adreno idler will more actively try to ramp down the frequency if this is set to a lower value.</string>
-    <string name="workload">Workload</string>
-    <string name="workload_summary">Adreno idler will more actively try to ramp down the frequency if this is set to a higher value.</string>
+    <string name="aio_hotplug">AiO Hotplug</string>
+    <string name="aio_hotplug_summary">All in One HotPlug for Qualcomm devices. Developed by Shoaib0597.</string>
+    <string name="max_cpu_online_big">Maximum big CPUs Online</string>
+    <string name="max_cpu_online_big_summary">Maximum number of big CPUs that will be online.</string>
+    <string name="max_cpu_online_little">Maximum LITTLE CPUs Online</string>
+    <string name="max_cpu_online_little_summary">Maximum number of LITTLE CPUs that will be online.</string>
 
     <!--Thermal-->
     <string name="thermal_info">Use only one thermal driver from the following options, using more at the same time may cause unexpected behavior.</string>
@@ -389,7 +370,6 @@
     <string name="freq_step">Frequency Step</string>
     <string name="immediately_limit_stop">Immediately Limit Stop</string>
     <string name="poll">Poll</string>
-    <string name="poll_summary">Sampling interval to read sensor.</string>
     <string name="temp_hysteresis">Temperature Hysteresis</string>
     <string name="thermal_limit_low">Thermal Limit Low</string>
     <string name="thermal_limit_high">Thermal Limit High</string>
@@ -413,67 +393,35 @@
     <string name="allowed_max_freq">Phase 3: Allowed Max Frequency</string>
     <string name="check_interval">Check Interval</string>
     <string name="shutdown_temp">Shutdown Temperature</string>
-    <string name="msm_thermal">MSM Thermal</string>
-    <string name="msm_thermal_simple">Simple Thermal Monitor</string>
-    <string name="msm_thermal_simple_summary">An in-kernel replacement for Qualcomm\'s Thermald. Developed by Sultanxda.</string>
-    <string name="usermax_freq">User Maximum Frequency</string>
-    <string name="thermal_zone">Thermal Zones</string>
-    <string name="freq_mitg_temp">Frequency Mitigation Temperature</string>
-    <string name="freq_mitg_temp_summary">Threshold temperature to mitigate the CPU max frequency.</string>
-    <string name="hotplug_temp">Hotplugging Temperature</string>
-    <string name="hotplug_temp_summary">Threshold temperature to start shutting down cores.</string>
-    <string name="core_control_mask">Core Control Mask</string>
-    <string name="core_control_mask_summary">The cpu mask that will be used to determine if a core can be controlled or not (Set 0 to disable).</string>
-    <string name="freq_control_mask">Frequency Control Mask</string>
-    <string name="freq_control_mask_summary">The cpu mask that will be used to determine if a core can be used for freq control.</string>
-    <string name="freq_mit_control_mask">Frequency Mitigation Control Mask</string>
-    <string name="freq_mit_control_mask_summary">The frequency mitigation bitmask that will be used to determine if KTM should do emergency frequency mitigation for a core or not.</string>
 
-    <!-- Battery -->
-    <string name="capacity">Capacity</string>
-    <string name="blx">Battery Life eXtender</string>
-    <string name="blx_summary">Set a limit for the capacity to which the battery will be charged by passing a value between 0 and 100.</string>
-    <string name="charging_enable">Enable Charging</string>
-    <string name="charging_enable_summary">Warning! Charging will be stopped immediately if disabled.</string>
-    <string name="thunder_charge">Thunder Charge</string>
-    <string name="thunder_charge_summary">Enable Thunder Charge by varun.chitre15</string>
-
-    <!-- Advanced Charge Control Interface -->
-    <string name="acci">Advanced Charge Control Interface</string>
-    <string name="fast_charge">Fast Charge</string>
-    <string name="fast_charge_summary">If enabled, the device will charge faster when connected to USB. Select custom mode to charge your device in a custom level. Replug your charger when changing these options.</string>
-    <string name="otg_enable">OTG Switch</string>
-    <string name="otg_enable_summary">Permanently enable USB On-The-Go (OTG) mode on supported OnePlus devices.</string>
-    <string name="usb_fast_charge_summary">Device will charge faster when connected with USB. Replug your charger when changing this option.</string>
-    <string name="custom_charge">Custom Mode</string>
-    <string name="charge_level_ac">Charge Level (AC)</string>
-    <string name="charge_level_usb">Charge Level (USB)</string>
-    <string name="charge_level_wireless">Charge Level (Wireless)</string>
-    <string name="charge_level_summary">Choose your Level (mA)</string>
-    <string name="mtp_fast_charge">MTP while Fast Charge</string>
-    <string name="mtp_fast_charge_summary">Enable MTP while fast charge</string>
-    <string name="screen_limit">Screen On Current Limit</string>
-    <string name="screen_limit_summary">Enable Screen On Current Limit</string>
-    <string name="stockchargelogic">Set 0 for stock charge logic</string>
-
-    <!-- Sound -->
-    <string name="sound_control">Sound Control</string>
-    <string name="speaker_leakage">Speaker Driver Leakage</string>
-    <string name="speaker_leakage_summary">Software workaround to avoid leakage on the speaker driver</string>
-    <string name="headset_highperf_mode">Headset High Performance Mode</string>
-    <string name="headphone_gain">Headphone Gain</string>
-    <string name="speaker_gain">Speaker Gain</string>>
-    <string name="headphone_tpa6165_gain">Headphone Amp Gain (TPA6165 Extension)</string>
-    <string name="microphone_gain">Microphone Gain</string>
-    <string name="volume_gain">Volume Gain</string>
-    <string name="boefflasound">Boeffla Sound</string>
-    <string name="boefflasound_summary">Turn On/Off Boeffla Sound Engine</string>
-    <string name="earpiece_gain">Earpiece Gain (Calls)</string>
-    <string name="faux_sound">Faux Sound</string>
-    <string name="faux_sound_summary">Turn On/Off Faux Sound Engine</string>
-    <string name="lock_mic_gain">Lock Microphone Gain</string>
-    <string name="lock_mic_gain_summary">Prevent modifications to microphone gains</string>
-    <string name="per_channel_controls">Per-channel controls</string>
+    <!-- GPU -->
+    <string name="frequencies">Frequencies</string>
+    <string name="gpu_2d_freq">GPU 2D Frequency</string>
+    <string name="gpu_2d_max_freq">GPU 2D Maximum Frequency</string>
+    <string name="gpu_2d_max_freq_summary">Set the maximum 2D frequency the GPU scales up to.</string>
+    <string name="gpu_max_freq">GPU Maximum Frequency</string>
+    <string name="gpu_max_freq_summary">Set the maximum frequency the GPU scales up to.</string>
+    <string name="gpu_min_freq">GPU Minimum Frequency</string>
+    <string name="gpu_min_freq_summary">Set the minimum frequency the GPU scales down to.</string>
+    <string name="gpu_2d_governor">GPU 2D Governor</string>
+    <string name="gpu_2d_governor_summary">Set the 2D governor of the GPU.</string>
+    <string name="gpu_governor">GPU Governor</string>
+    <string name="gpu_governor_summary">Set the governor of the GPU.</string>
+    <string name="gpu_governor_tunables">GPU Governor Tunables</string>
+    <string name="simple_gpu_algorithm">Simple GPU Algorithm</string>
+    <string name="simple_gpu_algorithm_summary">An add-on for MSM Adreno TZ GPU Governor. Developed by faux123.</string>
+    <string name="laziness">Laziness</string>
+    <string name="laziness_summary">This increases the threshold to ramp up or down GPU frequencies. The lower it is, the more performance you get.</string>
+    <string name="ramp_thresold">Ramp Thresold</string>
+    <string name="ramp_thresold_summary">This increases the number of times the GPU governor ramp down requests. The higher it is, the more performance you get.</string>
+    <string name="adreno_idler">Adreno Idler</string>
+    <string name="adreno_idler_summary">An efficient workaround for msm-adreno-tz\'s overheads. Developed by arter97.</string>
+    <string name="down_differential">Down Differential</string>
+    <string name="down_differential_summary">Threshold for determining if the given workload is idle.</string>
+    <string name="idle_wait">Idle Wait</string>
+    <string name="idle_wait_summary">Number of events to wait before ramping down the frequency. The idlewait\'th events before current one must be all idle before Adreno idler ramps down the frequency. This implementation is to prevent micro-lags on scrolling or playing games. Adreno idler will more actively try to ramp down the frequency if this is set to a lower value.</string>
+    <string name="workload">Workload</string>
+    <string name="workload_summary">Adreno idler will more actively try to ramp down the frequency if this is set to a higher value.</string>
 
     <!-- Screen -->
     <string name="screen_color">Screen Color</string>
@@ -531,30 +479,6 @@
     <string name="master_sequence_summary">Enabling the master sequence will disable and ignore Samsung\'s profiles and scenarios, the ROM controls will be disabled.</string>
     <string name="glove_mode">Glove Mode</string>
     <string name="glove_mode_summary">Enabling this will let you use your phone even while wearing gloves.</string>
-
-    <!-- K-Lapse -->
-    <string name="klapse">K-Lapse</string>
-    <string name="klapse_summary">Select preferred K-Lapse mode, a kernel level live-display module by tanish2k09. This shouldn\'t be Turned-Off to tune the rest of K-Lapse parameters.</string>
-    <string name="turn_off">Turned-Off</string>
-    <string name="time_scale">Time Based Scaling</string>
-    <string name="bright_scale">Brightness Based Scaling</string>
-    <string name="night_mode_schedule">Night Mode Schedule (Hour)</string>
-    <string name="start_time">Start</string>
-    <string name="end_time">End</string>
-    <string name="scaling_rate">Scaling Rate (Minute)</string>
-    <string name="scaling_rate_summary">Controls how soon the RGB reaches from Daytime to Night Mode inside of start and stop hour range.</string>
-    <string name="fadeback_time">Fade-back Time (Minute)</string>
-    <string name="fadeback_time_summary">The number of minutes before End Time when RGB should start going back to Daytime colors.</string>
-    <string name="daytime_rgb">Daytime Colors</string>
-    <string name="nightmode_rgb">Night Mode Colors</string>
-    <string name="auto_brightness">Auto-brightness</string>
-    <string name="auto_brightness_summary">Automatically set the brightness factor in a set time range.</string>
-    <string name="brightness_factor">Brightness Factor</string>
-    <string name="brightness_factor_summary">Turn off K-Lapse Auto-brightness control to use this feature. Values: 2-10 (10: Accurate brightness; 5: 50% of current brightness).</string>
-    <string name="auto_brightness_schedule">Auto-brightness Schedule (Hour)</string>
-    <string name="backlight_range">Backlight Range</string>
-    <string name="pulse_freq">Pulse Frequency</string>
-    <string name="pulse_freq_summary">The number of milliseconds after which klapse_pulse is called.</string>
 
     <!-- Wake -->
     <string name="dt2w">DoubleTap2Wake</string>
@@ -616,11 +540,39 @@
     <string name="charging_mode">Charging Mode</string>
     <string name="charging_mode_summary">Wake controls will only be active when device is charging.</string>
 
+    <!-- Sound -->
+    <string name="sound_control">Sound Control</string>
+    <string name="headset_highperf_mode">Headset High Performance Mode</string>
+    <string name="headphone_gain">Headphone Gain</string>
+    <string name="handset_microphone_gain">Handset Microphone Gain</string>
+    <string name="cam_microphone_gain">Camcorder Microphone Gain</string>
+    <string name="speaker_gain">Speaker Gain</string>
+    <string name="headphone_poweramp_gain">Headphone PowerAmp Gain</string>
+    <string name="headphone_tpa6165_gain">Headphone Amp Gain (TPA6165 Extension)</string>
+    <string name="lock_output_gain">Lock Output Gain</string>
+    <string name="lock_output_gain_summary">Prevent modifications to headphone/speaker gains</string>
+    <string name="lock_mic_gain">Lock Microphone Gain</string>
+    <string name="lock_mic_gain_summary">Prevent modifications to microphone gains</string>
+    <string name="microphone_gain">Microphone Gain</string>
+    <string name="volume_gain">Volume Gain</string>
+
+    <!-- Battery -->
+    <string name="level">Level</string>
+    <string name="voltage">Voltage</string>
+    <string name="capacity">Capacity</string>
+    <string name="usb_fast_charge">USB Fast Charge</string>
+    <string name="usb_fast_charge_summary">Device will charge faster when connected with USB. Replug your charger when changing this option.</string>
+    <string name="blx">Battery Life eXtender</string>
+    <string name="blx_summary">Set a limit for the capacity to which the battery will be charged by passing a value between 0 and 100.</string>
+    <string name="charge_rate">Charge Rate</string>
+    <string name="charging_current">Charging Current</string>
+    <string name="charging_current_summary">Set charging current. Caution: Exceeding 1250mA may damage your charging driver.</string>
+
     <!-- LED -->
-    <string name="fade">LED Notification (Blink/Fade)</string>
+    <string name="fade">Fade</string>
     <string name="fade_summary">Enable for fading, disable for blinking.</string>
-    <string name="led_intensity">LED Notification (Intensity)</string>
-    <string name="led_speed">LED Notification (Speed)</string>
+    <string name="intensity">Intensity</string>
+    <string name="speed">Speed</string>
     <string name="stock">Stock</string>
     <string name="continuous_light">Continuous light</string>
     <string name="bright_light_environment">Bright Light Environment</string>
@@ -636,8 +588,8 @@
     <string name="fade_in_summary">Sets the time period of the rising slope.</string>
     <string name="fade_out">Fade out</string>
     <string name="fade_out_summary">Sets the time period of the falling slope.</string>
-    <string name="backlight_max">Display Backlight (Max)</string>
-    <string name="backlight_min">Display Backlight (Min)</string>
+    <string name="test">Test</string>
+    <string name="led_test_summary">Test the led with your settings.</string>
 
     <!-- I/O Scheduler -->
     <string name="internal_storage">Internal Storage</string>
@@ -656,10 +608,6 @@
     <string name="add_random_summary">Draw entropy from spinning (rotational) storage.</string>
     <string name="rq_affitiny">RQ Affinity</string>
     <string name="rq_affinity_summary">Try to have scheduler requests complete on the CPU core they were made from. Higher values are more aggressive.</string>
-    <string name="nomerges">No-Merges</string>
-    <string name="nomerges_summary">This enables the user to disable the lookup logic involved with IO merging requests in the block layer.</string>
-    <string name="nr_requests">NR Requests</string>
-    <string name="nr_requests_summary">This controls how many requests may be allocated in the block layer for read or write requests.</string>
 
     <!-- Kernel Samepage Merging -->
     <string name="full_scans">Full scans</string>
@@ -693,68 +641,8 @@
     <string name="kill_lmk_threshold">Kill LMK Threshold</string>
     <string name="kill_lmk_threshold_summary">How full swap needs to be to kill LMK.</string>
 
-    <!-- Wakelock -->
-    <string name="wakelock">Wakelocks</string>
-    <string name="wakelocks_other">Other Wakelocks</string>
-    <string name="wakelock_summary">Wakelocks are there for a reason. This means, by blocking some of them you can introduce smaller or bigger issues, trigger strange side effects and in the worst case render the system completely unusable. Blocking wakelocks is solely your own responsibility.</string>
-    <string name="boeffla_wakelock">Boeffla Generic Wakelock Blocker</string>
-    <string name="wkl_order">Wakelocks order</string>
-    <string name="wkl_order_summary">Select the listing order of the Wakelocks</string>
-    <string name="wkl_blocked">Wakelocks Blocked</string>
-    <string name="wkl_allowed">Wakelocks Allowed</string>
-    <string name="wkl_total_time">Time</string>
-    <string name="wkl_wakep_count">Wakeups</string>
-    <string name="wkl_name">Name</string>
-    <string name="wkl_time">Time</string>
-    <string name="wkl_wakeup">Wakeups</string>
-    <string name="smb135x_wakelock">smb135x Wakelock</string>
-    <string name="smb135x_wakelock_summary">Prevent wakelock when power disconnected.</string>
-    <string name="sensor_ind_wakelock">sensor_ind Wakelock</string>
-    <string name="sensor_ind_wakelock_summary">Prevent wakelock when Ambient Display disabled.</string>
-    <string name="msm_hsic_host_wakelock">msm_hsic_host Wakelock</string>
-    <string name="msm_hsic_host_wakelock_summary">Prevent msm_hsic_host wakelock.</string>
-    <string name="wlan_rx_wakelock">wlan_rx Wakelock</string>
-    <string name="wlan_rx_wakelock_summary">Prevent wlan_rx wakelock.</string>
-    <string name="wlan_ctrl_wakelock">wlan_ctrl Wakelock</string>
-    <string name="wlan_ctrl_wakelock_summary">Prevent wlan_ctrl wakelock.</string>
-    <string name="wlan_wakelock">wlan Wakelock</string>
-    <string name="wlan_wakelock_summary">Prevent wlan wakelock.</string>
-    <string name="bluesleep_wakelock">BlueSleep Wakelock</string>
-    <string name="bluesleep_wakelock_summary">Prevent BlueSleep wakelock.</string>
-    <string name="ipa_wakelock">Ipa Wakelock</string>
-    <string name="ipa_wakelock_summary">Prevent Ipa wakelock.</string>
-    <string name="netlink_wakelock">NetLink Wakelock</string>
-    <string name="netlink_wakelock_summary">Prevent NetLink wakelock.</string>
-    <string name="qcom_rx_wakelock">Qcom rx Wakelock</string>
-    <string name="qcom_rx_wakelock_summary">Prevent Qcom rx wakelock.</string>
-    <string name="timerfd_wakelock">Timerfd Wakelock</string>
-    <string name="timerfd_wakelock_summary">Prevent Timerfd wakelock.</string>
-    <string name="wlan_extscan_wl_ws_wakelock">Extscan Wakelock</string>
-    <string name="wlan_extscan_wl_ws_wakelock_summary">Prevent Extscan wakelock.</string>
-    <string name="wlan_ws_wakelock">wlan_ws Wakelock</string>
-    <string name="wlan_ws_wakelock_summary">Prevent wlan_ws wakelock.</string>
-    <string name="bluedroid_timer_wakelock">Bluedroid Timer Wakelock</string>
-    <string name="bluedroid_timer_wakelock_summary">Prevent Bluedroid Timer wakelock.</string>
-    <string name="wlan_rx_wakelock_divider">wlan_rx Wakelock Divider</string>
-    <string name="wlan_ctrl_wakelock_divider">wlan_ctrl Wakelock Divider</string>
-    <string name="msm_hsic_wakelock_divider">msm_hsic Wakelock Divider</string>
-    <string name="bcmdhd_wakelock_divider">BCMDHD Wakelock Divider</string>
-    <string name="wkl_sensorhub">SensorHub</string>
-    <string name="wkl_sensorhub_summary">The SensorHub Wakelock is one of the biggest wake sources. Disable for better deep sleep and less awake time. Enable for stock behavior.</string>
-    <string name="wkl_ssp">SSP</string>
-    <string name="wkl_ssp_summary">The SSP Wakelock is one of the biggest wake sources after Sensorhub. Disable for better deep sleep and less awake time. Enable for stock behavior.</string>
-    <string name="wkl_gps">GPS</string>
-    <string name="wkl_gps_summary">The bcm4359 Wakelock (GPS chip) is one of the biggest wake sources after Sensorhub &amp; SSP. Disable for better deep sleep and less awake time. Enable for stock behavior.</string>
-    <string name="wkl_wireless">Wireless</string>
-    <string name="wkl_wireless_summary">Wireless Wakelock. Disable for better deep sleep and less awake time. Enable for stock behavior.</string>
-    <string name="wkl_bluetooth">Bluetooth</string>
-    <string name="wkl_bluetooth_summary">Bluetooth Wakelock. Disable for better deep sleep and less awake time. Enable for stock behavior.</string>
-
     <!-- Virtual Memory -->
-    <string name="swap">SWAP</string>
     <string name="zram">Z-RAM</string>
-    <string name="zram_algo">Z-RAM Algorithm</string>
-    <string name="zram_algo_summary">Set default Z-RAM Compression algorithm.\nReduce Z-RAM Disksize to \'0\' before changing this option.</string>
     <string name="disksize">Disksize</string>
     <string name="disksize_summary">Attempts to increase performance by avoiding paging on physical storage, instead using a compressed virtual device in RAM. Paging takes place in RAM until it is necessary to use the swap space on physical storage.</string>
     <string name="zswap">ZSWAP</string>
@@ -772,11 +660,6 @@
 
     <!-- Misc -->
     <string name="android_logger">Android logging</string>
-    <string name="android_logger_summary">Turn On/Off Android logging</string>
-    <string name="printk_logger">PrintK logging</string>
-    <string name="printk_logger_summary">Turn On/Off Linux PrintK logging</string>
-    <string name="selinux_switch">SELinux Switch</string>
-    <string name="selinux_switch_summary">Disable to switch SELinux into Permissive</string>
     <string name="crc">Software CRC control</string>
     <string name="crc_summary">CRC is a mechanism aiming to prevent data corruption when enabled. Data blocks can lose up to 30% of their performance.</string>
     <string name="fsync">Fsync</string>
@@ -787,7 +670,6 @@
     <string name="gentlefairsleepers_summary">Only give sleepers 50% of their service deficit. Disabling this can save a little battery power.</string>
     <string name="arch_power">Arch Power</string>
     <string name="arch_power_summary">Enable Arch Specific Power Function/Savings.</string>
-    <string name="power_suspend">Power Suspend</string>
     <string name="power_suspend_mode">Power Suspend Mode</string>
     <string name="power_suspend_mode_summary">Kernel Mode, LCD Hooks and Highest Level Hook are automatically managed by the kernel. To manually enable or disable the Power Suspend State choose User Mode.</string>
     <string name="autosleep">Autosleep</string>
@@ -800,31 +682,52 @@
     <string name="tcp">TCP Congestion Algorithm</string>
     <string name="tcp_summary">The Transmission Control Protocol is one of the core protocols of the Internet protocol suite (IP), and is so common that the entire suite is often called TCP/IP.</string>
     <string name="hostname">Hostname</string>
-    <string name="wireguard">WireGuard VPN</string>
-    <string name="leases_enable">Leases Enable</string>
-    <string name="leases_enable_summary">Enable or disable file leases on a system-wide basis</string>
-    <string name="lease_break_time">Lease Break Time</string>
-    <string name="lease_break_time_summary">The grace period that the kernel grants to a process holding a file lease after it has sent a signal to that process notifying it that another process is waiting to open the file.</string>
+    <string name="wakelock">Wakelock</string>
+    <string name="smb135x_wakelock">smb135x Wakelock</string>
+    <string name="smb135x_wakelock_summary">Prevent wakelock when power disconnected.</string>
+    <string name="sensor_ind_wakelock">sensor_ind Wakelock</string>
+    <string name="sensor_ind_wakelock_summary">Prevent wakelock when Ambient Display disabled.</string>
+    <string name="msm_hsic_host_wakelock">msm_hsic_host Wakelock</string>
+    <string name="msm_hsic_host_wakelock_summary">Prevent msm_hsic_host wakelock.</string>
+    <string name="wlan_rx_wakelock">wlan_rx Wakelock</string>
+    <string name="wlan_rx_wakelock_summary">Prevent wlan_rx wakelock.</string>
+    <string name="wlan_ctrl_wakelock">wlan_ctrl Wakelock</string>
+    <string name="wlan_ctrl_wakelock_summary">Prevent wlan_ctrl wakelock.</string>
+    <string name="wlan_wakelock">wlan Wakelock</string>
+    <string name="wlan_wakelock_summary">Prevent wlan wakelock.</string>
+    <string name="bluesleep_wakelock">BlueSleep Wakelock</string>
+    <string name="bluesleep_wakelock_summary">Prevent BlueSleep wakelock.</string>
+    <string name="wlan_rx_wakelock_divider">wlan_rx Wakelock Divider</string>
+    <string name="wlan_ctrl_wakelock_divider">wlan_ctrl Wakelock Divider</string>
+    <string name="msm_hsic_wakelock_divider">msm_hsic Wakelock Divider</string>
+    <string name="bcmdhd_wakelock_divider">BCMDHD Wakelock Divider</string>
 
-    <!-- Performance Tweaks -->
-    <string name="spectrum">Performance Tweaks</string>
-    <string name="profileTile">Profile</string>
-    <string name="spec_title">Performance Tweaks</string>
-    <string name="spec_info">An adaptation of the Spectrum Manager by frap129.\nSelect one among the available pre-defined profiles.</string>
-    <string name="spec_balanced">Balanced</string>
-    <string name="spec_balanced_summary">The default kernel profile designed for smooth performance in basic tasks while maintaining fantastic battery.</string>
-    <string name="spec_performance">Performance</string>
-    <string name="spec_performance_summary">Tuned for top-tier performance in standard tasks with many fewer regressions than Balanced, but maintains battery by limiting graphics.</string>
-    <string name="spec_battery">Battery</string>
-    <string name="spec_battery_summary">The ultra-conservative profile that lets performance take a hit in order to archive long-lasting battery life.</string>
-    <string name="spec_gaming">Gaming</string>
-    <string name="spec_gaming_summary">Identical to performance in most areas other than the unlocked Graphics performance.</string>
+    <!-- Data Sharing -->
+    <string name="data_sharing_summary_notification">Data sharing is active! Click to learn more about this feature.</string>
+    <string name="data_sharing_summary">Share your settings with others! Kernel Adiutor will automatically collect information and compile a score list available to all people.</string>
+    <string name="data_sharing_summary_link">You can access the list on &lt;a href="https://www.grarak.com/kerneladiutor">grarak.com&lt;/a>.</string>
+    <string name="sharing_enable">Sharing enable</string>
+    <string name="filter">Filter</string>
+    <string name="board">Board</string>
+    <string name="show_all">Show all</string>
+    <string name="failed_board">Failed to load boards.</string>
+    <string name="failed_devices">Failed to load devices.</string>
+    <string name="previous">Previous</string>
+    <string name="page">Page</string>
+    <string name="next">Next</string>
+    <string name="kernel_version">Kernel Version</string>
+    <string name="potential_sot">Potential SOT</string>
+    <string name="screen_always_on">when screen is always on</string>
+    <string name="lower_better">lower is better</string>
+    <string name="cpu_score">CPU Score</string>
+    <string name="cpu_information">CPU Information</string>
+    <string name="default_settings">Default (no modifications made)</string>
 
     <!-- Custom Controls -->
     <string name="welcome">Welcome</string>
     <string name="custom_controls_summary">In this section you can create or import custom controls, which don\'t exist in the app (yet).</string>
     <string name="example">Examples</string>
-    <string name="custom_controls_example_summary">Need example? Click &lt;a href="https://github.com/Grarak/KernelAdiutor/wiki/Custom-Controls">here&lt;a>.</string>
+    <string name="custom_controls_example_summary">Need example? Click &lt;a href="https://github.com/AyraHikari/KernelAdiutor/wiki/Custom-Controls">here&lt;a>.</string>
     <string name="create">Create</string>
     <string name="import_item">Import</string>
     <string name="control_switch">Switch</string>
@@ -856,6 +759,21 @@
     <string name="name_empty">Name is empty!</string>
     <string name="import_malformed">Import file is malformed!</string>
     <string name="import_wrong_version">Version of import file is too old!</string>
+
+    <!-- Downloads -->
+    <string name="downloads_error">Couldn\'t find any supported kernels! Please check your internet access.</string>
+    <string name="download_error">Failed to download %s.</string>
+    <string name="downloading_counting">%1$s/%2$s</string>
+    <string name="check_md5">Checking md5</string>
+    <string name="md5_mismatch">The downloaded file has a different MD5. This has following reasons:\n\n\u2022 The downloaded file is corrupted\n\u2022 The developer has declared a wrong MD5\n\nTry to download the file again. If you still get this error, please contact the developer of this kernel.</string>
+    <string name="install">Install</string>
+    <string name="cwm_recovery">CWM Recovery</string>
+    <string name="twrp">TWRP</string>
+    <string name="manual_flashing">I will use my hands</string>
+    <string name="file_location">Downloaded file is in %s</string>
+    <string name="backing_up">Backing up</string>
+    <string name="flashing">Flashing</string>
+    <string name="restoring">Restoring</string>
 
     <!-- Backup -->
     <string name="boot_partition">Boot partition</string>
@@ -896,6 +814,18 @@
     <string name="nothing_selected">Nothing selected</string>
     <string name="profile_empty">Profile is empty!</string>
 
+    <!-- Recovery -->
+    <string name="reboot">Reboot</string>
+    <string name="reboot_soft">Soft Reboot</string>
+    <string name="reboot_recovery">Reboot Recovery</string>
+    <string name="reboot_bootloader">Reboot Bootloader</string>
+    <string name="reboot_download">Reboot Download</string>
+    <string name="wipe_data">Wipe Data</string>
+    <string name="wipe_cache">Wipe Cache</string>
+    <string name="flash_zip">Flash Zip</string>
+    <string name="add_action_first">You have to add actions first!</string>
+    <string name="flash_now_confirm">Do you want to run your actions? Your device will reboot into recovery and the actions will run in the order as you added them.</string>
+
     <!-- Init.d -->
     <string name="emulate_initd">Emulate Init.d</string>
     <string name="emulate_initd_summary">If your device doesn\'t support Init.d by default, you can enable this to emulate its behaviour.</string>
@@ -909,74 +839,7 @@
     <string name="arguments">Arguments: %s</string>
     <string name="disable_question">Disable %s?</string>
 
-    <!-- SmartPack -->
-    <string name="support">Support</string>
-    <string name="support_summary">Visit support page at xda-developers.com</string>
-    <string name="website">Website</string>
-    <string name="website_summary">Visit SmartPack homepage</string>
-    <string name="get_it">Get It!</string>
-    <string name="get_it_summary">Get latest SmartPack-Kernel for your device</string>
-    <string name="download">Download</string>
-    <string name="download_flash">Download and Flash</string>
-    <string name="downloads_message">\nThe app will download the latest version of SmartPack-Kernel available for your device.\n\nWarning! Downloading will take some time to finish! Please be patient!\n\nYou will be notified by the App once the new kernel is ready to flash.\n</string>
-    <string name="autoflash">Auto-flash</string>
-    <string name="install_now">Install Now</string>
-    <string name="flash_message">\nSmartPack-Kernel is downloaded into \'/sdcard/Download/\'\n\nDo you want to Install it NOW?\n</string>
-    <string name="no_flash_message">\nSorry! Auto-flash will NOT work on this device. However, you can manually flash the Kernel once the download is completed.\nDo you want to reboot?\n</string>
-    <string name="download_failed_message">\nAre you running an unsupported android version?\n\nIf not, please check your internet connection!\n\n</string>
-    <string name="advance_options">Advanced Options</string>
-    <string name="reboot">Reboot</string>
-    <string name="reboot_now">Reboot Now</string>
-    <string name="reboot_later">Reboot Later</string>
-    <string name="reboot_recovery">Reboot Recovery</string>
-    <string name="reboot_bootloader">Reboot Bootloader</string>
-    <string name="wipe_data">Wipe Data</string>
-    <string name="wipe_cache">Wipe Cache</string>
-    <string name="manual_flashing">Install later</string>>
-    <string name="backing_up">Backing up</string>
-    <string name="flashing">Flashing</string>
-    <string name="restoring">Restoring</string>
-    <string name="reset_settings">Reset App</string>
-    <string name="reset_settings_summary">Reset User Settings</string>
-    <string name="reset_settings_message">\nApp settings will be completely erased.\n\nAre you sure?\n\n</string>
-    <string name="reboot_recovery_summary">Reboot device into Recovery Mode</string>
-    <string name="reboot_bootloader_summary">Reboot device into Download Mode</string>
-    <string name="reboot_message">To avoid configuration failures, it is highly recommended to reboot the system.\n\nDo you want to reboot?\n</string>
-    <string name="recovery_message">\nYour device will be rebooted into Recovery mode.\n\n</string>
-    <string name="bootloader_message">\nYour device will be rebooted into Download Mode.\n\n</string>
-    <string name="wipe_cache_summary">Wipe Cache Partition</string>
-    <string name="wipe_data_summary">Wipe Data Partition</string>
-    <string name="wipe_cache_message">\nCache/Dalvik Cache partitions of your device will be erased.\n\nAttention! The device will be Rebooted.\n\n</string>
-    <string name="wipe_data_message">\nData partition of your device will be completely erased.\n\nWarning! You will lose all the user data including apps.\n\nAttention! The device will be Rebooted.\n\n</string>
-    <string name="latest_version_check">Click here to check the latest version info</string>
-    <string name="recheck">\n(Click here to re-check)</string>
-    <string name="update_check_failed">Failed to get latest version info! Please check your internet connection</string>
-    <string name="up_to_date_message">Congrats! You are up-to-date</string>
-    <string name="no_kernel_support">Unsupported Version</string>
-    <string name="no_kernel_support_summary">SmartPack-Kernel is not (yet) available for your Android version</string>
-    <string name="saving">Saving...</string>
-
-    <!-- App Updater -->
-    <string name="appupdater_json">https://raw.githubusercontent.com/SmartPack/SmartPack-Kernel-Manager/master/download/App-update.json</string>
-    <string name="appupdater_update_title">New update available!\nv%2$s</string>
-    <string name="check_update">Check for Updates</string>
-    <string name="check_update_summary">Check for new versions of SmartPack-Kernel Manager</string>
-    <string name="appupdater_update_available">New update available!</string>
-    <string name="appupdater_update_available_description_dialog">Update %1$s is available to download. By downloading the latest update you will get the latest features, improvements and bug fixes for %2$s.</string>
-    <string name="appupdater_update_available_description_dialog_before_release_notes">Update %1$s is available to download.\n\nYou can get these new features:\n%2$s</string>
-    <string name="appupdater_update_available_description_snackbar">Update %1$s is available!</string>
-    <string name="appupdater_update_available_description_notification">Update %1$s of %2$s is available to download</string>
-    <string name="appupdater_update_not_available">Congrats</string>
-    <string name="appupdater_update_not_available_description">"You've already got an up-to-date version of SmartPack-Kernel Manager!</string>
-    <string name="appupdater_btn_update">Update</string>
-    <string name="appupdater_btn_disable">Don\'t show again</string>
-    <string name="appupdater_btn_dismiss">Dismiss</string>
-    <string name="appupdater_channel_name">Update notifications</string>
-    <string name="appupdater_channel" translatable="false">appupdater_channel_01</string>
-    <string name="appupdater_downloading_file">Downloading...</string>
-    <string name="appupdater_download_filed">Download FAILED!</string>
-
-    <!-- Settings-->
+    <!-- Settings -->
     <string name="open_settings">Open Settings</string>
     <string name="fahrenheit_title">Fahrenheit</string>
     <string name="fahrenheit_summary">Use fahrenheit to measure temperature.</string>
@@ -988,6 +851,7 @@
     <string name="hide_banner">Hide banner</string>
     <string name="force_cards">Force cards</string>
     <string name="force_cards_summary">Use cards for items if possible.</string>
+    <string name="primary_color">Primary color</string>
     <string name="accent_color">Accent Color</string>
     <string name="section_icons">Section Icons</string>
     <string name="section_icons_summary">Show icons for each section in navigation drawer.</string>
@@ -998,7 +862,6 @@
     <string name="fifty_sec">50 seconds</string>
     <string name="apply_on_boot_test_summary">Test apply on boot. This includes all kind of things which are getting applied during booting, such as custom controls, profiles, init.d, etc.</string>
     <string name="apply_on_boot_running">Apply on boot service is already running. Please wait until it finishes.</string>
-    <string name="test">Test</string>
     <string name="nothing_apply">Nothing found to apply!</string>
     <string name="hide">Hide</string>
     <string name="apply_on_boot_hide_summary">Hide the notification of apply on boot. Delay will still remain!</string>
@@ -1007,21 +870,17 @@
     <string name="confirmation_notification">Confirmation Notification</string>
     <string name="apply_on_boot_confirmation_notification_summary">After apply on boot with visible notification, show a notification afterwards with the confirmation that apply on boot was successful.</string>
     <string name="script">Script</string>
-    <string name="apply_on_boot_script_summary">Use a shell script to apply settings. Please only enable this if you have troubles with apply on boot. If the problem still persists after enabling this option, please make sure no other app is conflicting with SmartPack-Kernel Manager.</string>
+    <string name="apply_on_boot_script_summary">Use a shell script to apply settings. Please only enable this if you have troubles with apply on boot. If the problem still persists after enabling this option, please make sure no other app is conflicting with Kernel Adiutor.</string>
     <string name="debugging">Debugging</string>
-    <string name="logcat">Logcat(s)</string>
-    <string name="logcat_summary">Save all logcats, including radio and events, into \'sdcard\'</string>
+    <string name="logcat">Logcat</string>
+    <string name="logcat_summary">Copy logcat to /sdcard/logcat.txt</string>
     <string name="last_kmsg">Last Kernel Message</string>
-    <string name="last_kmsg_summary">Save /proc/last_kmsg into \'sdcard\'</string>
-    <string name="console_ramoops">Console Ramoops</string>
-    <string name="console_ramoops_summary">Save /sys/fs/pstore/console-ramoops* into \'sdcard\'</string>
+    <string name="last_kmsg_summary">Copy /proc/last_kmsg to /sdcard/last_kmsg.txt</string>
     <string name="driver_message">Driver Message</string>
-    <string name="driver_message_summary">Save driver message (dmesg) into \'sdcard\'</string>
-    <string name="driver_ramoops">Driver Ramoops</string>
-    <string name="driver_ramoops_summary">Save /sys/fs/pstore/dmesg-ramoops* into \'sdcard\'</string>
+    <string name="driver_message_summary">Copy driver message (dmesg) to /sdcard/dmesg.txt</string>
     <string name="security">Security</string>
     <string name="set_password">Set Password</string>
-    <string name="set_password_summary">You can protect SmartPack-Kernel Manager by setting up a password. Every time you open this application, you have to enter it. If you forget it, simply wipe the data of this application in settings of your device. Don\'t worry I won\'t share your password.</string>
+    <string name="set_password_summary">You can protect Kernel Adiutor by setting up a password. Every time you open this application, you have to enter it. If you forget it, simply wipe the data of this application in settings of your device. Don\'t worry I won\'t share your password.</string>
     <string name="delete_password">Delete Password</string>
     <string name="old_password">Old password</string>
     <string name="new_password">New password</string>
@@ -1035,45 +894,25 @@
     <string name="sections">Sections</string>
 
     <!-- About -->
-    <string name="about_me" translatable="false">SmartPack-Kernel Manager is a modified version of official Kernel Adiutor, which is originally developed by Willi Ye aka Grarak. All the credits goes to the original developer.\n\nIf you like SmartPack-Kernel, please consider to donate to me as it is helpful to continue this project more active, though it is not at all necessary.</string>
-    <string name="libraries_used">Libraries used</string>
-    <string name="source_code">Source Code</string>
-    <string name="source_code_summary">View source code at GitHub</string>
-    <string name="change_logs">Change-logs</string>
-    <string name="change_logs_summary">View Change-logs</string>
-    <string name="donate_me">Donate to Me</string>
-    <string name="donate_me_summary">Want to appreciate my work with a Donation? Click here</string>
+    <string name="about_me">Hi, This is another fork of Kernel Adiutor by Willi Ye aka Grarak. I\'m just make this for Yuka Kernel inbuild app, but you can install this on other kernel. I\'m just change package name for prevent replacing Kernel Adiutor app, and some modified file. Thank you for your understanding</string>
+    <string name="software_licenses">Software Licenses</string>
+    <string name="software_licenses_summary">View licenses</string>
 
     <!-- Contributors -->
     <string name="commits">%d commits</string>
     <string name="no_internet">Please check your internet connection!</string>
-    <string name="translators">Translators</string>
 
-    <!-- FAQ -->
-    <string name="how_different">Q1. How this App different from Grarak’s official Kernel Adiutor?</string>
-    <string name="how_different_summary">Ans. This App is significantly modified to meet the needs of Smart-Pack-Kernel. Some of the added features of this app include, but not limited to, i. CPU Input Boost, ii. Adreno Boost, iii. Dynamic Stune Boost, iv. K-Lapse, v. Advanced Charge Control Interface (Samsung msm8974 kernels), vi. Boeffla Wakelocks, vii. Boeffla and Flar\'s sound controls with per-channel support, viii. SELinux switch, ix. OTA support for SmartPack-Kernel, x. Display Backlight Control and many more.</string>
-    <string name="can_i_use">Q2. Can I use this App with other custom kernels?</string>
-    <string name="can_i_use_summary">Ans. Why not? It will work as usual.</string>
-    <string name="cpu_freq_not_sticking">Q3. Why doesn\'t my determined CPU freq stick?</string>
-    <string name="cpu_freq_not_sticking_summary">Ans. This could be due to many reasons. Many kernels nowadays have their own hotplugging system which controls the CPU frequency and CyanogenMod has their own CPU Boost implementation which regulates the frequency. I would suggest you don\'t touch the CPU frequencies and let the kernel do its job. This also counts for other functions! If they don\'t stick, it\'s because the kernel/system doesn\'t want to let you change it.</string>
-    <string name="feature_not_appearing">Q4. Why don\'t features x and y show up?</string>
-    <string name="feature_not_appearing_summary">Ans. Only features which are supported by your installed kernel are shown.</string>
-    <string name="add_new_features">Q5. Could you add feature x and y to your Kernel/App?</string>
-    <string name="add_new_features_summary">Ans. It depends on the feature and the capability of the device. I’m happy to check and add, if possible, any useful features (unless it is too experimental or dangerous) to my Kernel/App. Please give your suggestions in the respective xda-developers page.</string>
-    <string name="rom_abc">Q6. Is your kernel compatible with ROM(s) a/b/c?</string>
-    <string name="rom_abc_summary">Ans. I do not know. All of my kernels are based off and tested only on Lineage-OS/Stock-ROM. However, if your ROM(s) a/b/c are based on Lineage-OS/Stock-ROM (and uses the same kernel source code), it will most probably work.</string>
-    <string name="better_than">Q7. Is your kernel better than stock/‘x/y/z’ kernel(s)?</string>
-    <string name="better_than_summary">Ans. Regarding stock, Yes, It should be better in many aspects (Otherwise it will never be published). Regarding ‘x/y/z’ kernels, I don’t know. I even may not aware of the mentioned ‘x/y/z’ kernels.</string>
-    <string name="how_abt_sot">Q8. How about performance/SOT?</string>
-    <string name="how_abt_sot_summary">Ans. Since SOT, performance etc. are largely based on several factors such as ROM, installed apps etc., no one else can exactly predict the performance/SOT of your mobile. So, you should test and find out by yourself.</string>
-    <string name="what_best">Q9. Can you tell me the best settings for performance/SOT?</string>
-    <string name="what_best_summary">Ans. Again, it depends on several factors. I can only share my favorite settings that give me the best results in my favorite ROM.</string>
-    <string name="battery_drain">Q10. I’m facing a heavy battery drain after installing your Kernel. Any solution?</string>
-    <string name="battery_drain_summary">Ans. In my opinion, any kernel including mine is not capable to make such a big difference (neither positive nor negative) in battery life. It should be because of your ROM, Gapps, other installed apps, wake-locks etc.</string>
-    <string name="cache_dalvik">Q11. Do I need to wipe cache/dalvik cache before/after flashing your Kernel?</string>
-    <string name="cache_dalvik_summary">Ans. NO. Because the kernel does not even ‘see’ cache/dalvik cache.</string>
-    <string name="found_bugs">Q12. I found a bug in your App/Kernel, what do I do?</string>
-    <string name="found_bugs_summary">Ans. Please provide as much information as possible (such as what feature, what didn\'t work, screenshots or logcat if possible) and post in the respective xda-developers page. Alternately, you may also submit an issue to the respective GitHub Source.</string>
-    <string name="can_i_contribute">Q13. Can I contribute to your App/Kernel Projects? If so, How?</string>
-    <string name="can_i_contribute_summary">Ans. Absolutely. Any kind of contributions (Donations, Code etc.) are most welcomed and highly appreciated. Please visit "About" Section for more details.</string>
+    <!-- Help -->
+    <string name="misspelled">Why did you misspell \"Adiutor\"?</string>
+    <string name="misspelled_summary">Adiutor is Latin and means helper.</string>
+    <string name="have_to_donate">Do I have to donate in order to use those premium features?</string>
+    <string name="have_to_donate_summary">No, this application is open source. You can easily build it yourself. Donation features are enabled by default once you build a debugging apk, so no need to change any line of code.</string>
+    <string name="cpu_freq_not_sticking">Why doesn\'t my determined CPU freq stick?</string>
+    <string name="cpu_freq_not_sticking_summary">This could be due to many reasons. Many kernels nowadays have their own hotplugging system which controls the CPU frequency and CyanogenMod has their own CPU Boost implementation which regulate the frequency. I would suggest you don\'t touch the CPU frequencies and let the kernel do its job. This also counts for other functions! If they don\'t stick, it\'s because the kernel/system doesn\'t want to let you change it.</string>
+    <string name="feature_not_appearing">Why don\'t features x and y show up?</string>
+    <string name="feature_not_appearing_summary">Only features which are supported by your device are shown!</string>
+    <string name="feature_function">What does feature x do?</string>
+    <string name="feature_function_summary">If you don\'t know what this control does, then simply don\'t touch it. Please do a proper research before playing with your expensive hardware.</string>
+    <string name="add_new_features">Could you add feature x and y?</string>
+    <string name="add_new_features_summary">That\'s hard to say. I try to add all features, but it\'s hard to make this app universal for all devices.</string>
 </resources>

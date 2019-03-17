@@ -1,9 +1,0 @@
-{
-  "latestVersion": "7.5-20190315",
-  "url": "https://github.com/SmartPack/SmartPack-Kernel-Manager/blob/master/download/com.smartpack.kernelmanager.apk?raw=true",
-  "releaseNotes": [
-    "Change-log:",
-    "- I/O: Add support to No-Merges & NR Requests.",
-    "- Misc: Other (minor) changes."
-  ]
-}

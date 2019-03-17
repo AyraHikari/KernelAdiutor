@@ -2,8 +2,6 @@
 
 ## SmartPack-Kernel Manager is a modified version of official Kernel Adiutor, which is originally developed by Willi Ye aka Grarak. All the credits goes to the original developer.
 
-## Download
-### ! [Download latest build](https://github.com/SmartPack/SmartPack-Kernel-Manager/blob/master/download/com.smartpack.kernelmanager.apk?raw=true) ! [All builds](https://github.com/SmartPack/SmartPack-Kernel-Manager/releases) !
 ## Added features over official KA
 
 * CPU Input Boost (Sultanxda).

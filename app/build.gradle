@@ -16,9 +16,9 @@ android {
     signingConfigs {
         release {
             storeFile file("sp.jks")
-            storePassword "smartpack"
-            keyAlias "sp_key1"
-            keyPassword "smartpack"
+            storePassword "yukasettings"
+            keyAlias "yuka_key"
+            keyPassword "yukasettings"
         }
     }
 
@@ -26,7 +26,7 @@ android {
     buildToolsVersion '28.0.3'
 
     defaultConfig {
-        applicationId "com.smartpack.kernelmanager"
+        applicationId "me.ayra.kernelmanager"
         minSdkVersion 15
         targetSdkVersion 28
         versionCode 7
