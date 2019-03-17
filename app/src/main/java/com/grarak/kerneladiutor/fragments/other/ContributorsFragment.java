@@ -86,7 +86,7 @@ public class ContributorsFragment extends RecyclerViewFragment {
                     error();
                 }
             });
-            mWebpageReader.get("https://api.github.com/repos/SmartPack/SmartPack-Kernel-Manager/contributors");
+            mWebpageReader.get("https://api.github.com/repos/AyraHikari/KernelAdiutor/contributors");
         }
     }
 
