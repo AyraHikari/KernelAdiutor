@@ -1,5 +1,9 @@
 # Change-logs
 
+## 58. March 18, 2019
+*Debug-tag: v1.0*
+Initial Yuka Settings based on SmartPack
+
 ## 57. March 15, 2019
 *Release-tag: v7.5*
 Changes: I/O: Add support to No-Merges & NR Requests. Other (minor) changes.
